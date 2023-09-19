@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-staging/static/css/main.b20a9197.css",
-    "main.js": "/landing-staging/static/js/main.e15a6f2b.js",
+    "main.css": "/landing-staging/static/css/main.b0d8736d.css",
+    "main.js": "/landing-staging/static/js/main.903134ad.js",
     "static/js/787.22edae46.chunk.js": "/landing-staging/static/js/787.22edae46.chunk.js",
     "static/media/therapy-video.mp4": "/landing-staging/static/media/therapy-video.662bcaa9d129a20d6d4b.mp4",
     "static/media/file.mp4": "/landing-staging/static/media/file.9393183e45f941303202.mp4",
@@ -36,15 +36,16 @@
     "static/media/Amazon_Web_Services_Logo - Copy 1.svg": "/landing-staging/static/media/Amazon_Web_Services_Logo - Copy 1.1441e146fec86263c3a9fd5a369060e5.svg",
     "static/media/nvidia-seeklogo.com 1.svg": "/landing-staging/static/media/nvidia-seeklogo.com 1.186b53a0b06d0b3889646c0b858e4462.svg",
     "index.html": "/landing-staging/index.html",
+    "static/media/eye.svg": "/landing-staging/static/media/eye.1c816dfa904fb0775227c54ac1284cdb.svg",
     "static/media/Vector.svg": "/landing-staging/static/media/Vector.a91a9b5d1c1c637450193c9ffde90f87.svg",
     "static/media/check-circle.svg": "/landing-staging/static/media/check-circle.3f3a38b31aed62d54df39e07bf08ddc0.svg",
     "static/media/download.svg": "/landing-staging/static/media/download.69705fad77103a83dbdfdc698361bea2.svg",
-    "main.b20a9197.css.map": "/landing-staging/static/css/main.b20a9197.css.map",
-    "main.e15a6f2b.js.map": "/landing-staging/static/js/main.e15a6f2b.js.map",
+    "main.b0d8736d.css.map": "/landing-staging/static/css/main.b0d8736d.css.map",
+    "main.903134ad.js.map": "/landing-staging/static/js/main.903134ad.js.map",
     "787.22edae46.chunk.js.map": "/landing-staging/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b20a9197.css",
-    "static/js/main.e15a6f2b.js"
+    "static/css/main.b0d8736d.css",
+    "static/js/main.903134ad.js"
   ]
 }
