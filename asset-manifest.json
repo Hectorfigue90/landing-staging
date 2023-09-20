@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-staging/static/css/main.4c486bd4.css",
-    "main.js": "/landing-staging/static/js/main.f69c3e79.js",
+    "main.js": "/landing-staging/static/js/main.fc41b06c.js",
     "static/js/787.22edae46.chunk.js": "/landing-staging/static/js/787.22edae46.chunk.js",
     "static/media/therapy-video.mp4": "/landing-staging/static/media/therapy-video.662bcaa9d129a20d6d4b.mp4",
     "static/media/Editor.mp4": "/landing-staging/static/media/Editor.7adbcf6f6d90896fa2bc.mp4",
@@ -40,11 +40,11 @@
     "static/media/Vector.svg": "/landing-staging/static/media/Vector.a91a9b5d1c1c637450193c9ffde90f87.svg",
     "static/media/download.svg": "/landing-staging/static/media/download.69705fad77103a83dbdfdc698361bea2.svg",
     "main.4c486bd4.css.map": "/landing-staging/static/css/main.4c486bd4.css.map",
-    "main.f69c3e79.js.map": "/landing-staging/static/js/main.f69c3e79.js.map",
+    "main.fc41b06c.js.map": "/landing-staging/static/js/main.fc41b06c.js.map",
     "787.22edae46.chunk.js.map": "/landing-staging/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c486bd4.css",
-    "static/js/main.f69c3e79.js"
+    "static/js/main.fc41b06c.js"
   ]
 }
