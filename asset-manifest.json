@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/landing-staging/static/css/main.4c486bd4.css",
-    "main.js": "/landing-staging/static/js/main.97354778.js",
+    "main.js": "/landing-staging/static/js/main.13fe2624.js",
     "static/js/787.22edae46.chunk.js": "/landing-staging/static/js/787.22edae46.chunk.js",
     "static/media/therapy-video.mp4": "/landing-staging/static/media/therapy-video.662bcaa9d129a20d6d4b.mp4",
-    "static/media/Editor.mp4": "/landing-staging/static/media/Editor.7adbcf6f6d90896fa2bc.mp4",
     "static/media/apps-video.mp4": "/landing-staging/static/media/apps-video.7995ebce9932040ba7e9.mp4",
     "static/media/appStore-mockup.png": "/landing-staging/static/media/appStore-mockup.c3062766fe179b51f7a6.png",
     "static/media/biotune.png": "/landing-staging/static/media/biotune.324e2bd21752cf3e3ea3.png",
+    "static/media/Editor.mp4": "/landing-staging/static/media/Editor.95b045b46d4acc28794f.mp4",
     "static/media/hailo-dashboard.png": "/landing-staging/static/media/hailo-dashboard.da7111a10154abf14434.png",
     "static/media/Elsevier 1.svg": "/landing-staging/static/media/Elsevier 1.b1f6a4a2a562b80aa2fcb32423a6d46c.svg",
     "static/media/prepair-lab.png": "/landing-staging/static/media/prepair-lab.6038f3d2329ab15a1a92.png",
@@ -40,11 +40,11 @@
     "static/media/Vector.svg": "/landing-staging/static/media/Vector.a91a9b5d1c1c637450193c9ffde90f87.svg",
     "static/media/download.svg": "/landing-staging/static/media/download.69705fad77103a83dbdfdc698361bea2.svg",
     "main.4c486bd4.css.map": "/landing-staging/static/css/main.4c486bd4.css.map",
-    "main.97354778.js.map": "/landing-staging/static/js/main.97354778.js.map",
+    "main.13fe2624.js.map": "/landing-staging/static/js/main.13fe2624.js.map",
     "787.22edae46.chunk.js.map": "/landing-staging/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c486bd4.css",
-    "static/js/main.97354778.js"
+    "static/js/main.13fe2624.js"
   ]
 }
