@@ -48,8 +48,8 @@ const NavBar = () => {
 			<div className="navbar-action-container">
 				<div className="navbar-links-container">
 					<Link
-						// to="https://app.prepaire.com:5067/#/marketplace"
-						to="https://prepaire-staging.vercel.app/#/marketplace"
+						to="https://app.prepaire.com:5067/#/marketplace"
+						// to="https://prepaire-staging.vercel.app/#/marketplace"
 					>
 						Appstore
 					</Link>
@@ -82,15 +82,15 @@ const NavBar = () => {
 				<div className="navBar-button-containers">
 					<Link
 						className="button-secondary"
-						// to="https://app.prepaire.com:5067/#/login"
-						to="https://prepaire-staging.vercel.app/#/login"
+						to="https://app.prepaire.com:5067/#/login"
+						// to="https://prepaire-staging.vercel.app/#/login"
 					>
 						Log in
 					</Link>
 					<Link
 						className="button-primary"
-						// to="https://app.prepaire.com:5067/#/signup"
-						to="https://prepaire-staging.vercel.app/#/signup"
+						to="https://app.prepaire.com:5067/#/signup"
+						// to="https://prepaire-staging.vercel.app/#/signup"
 					>
 						Sign up
 					</Link>
