@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.scss";
 import logo1 from "../../../Assets/Partners/Drugbank_logo.svg";
-import logo2 from "../../../Assets/Partners/chemify_logo_wmohln 1.svg";
+// import logo2 from "../../../Assets/Partners/chemify_logo_wmohln 1.svg";
 import logo3 from "../../../Assets/Partners/syndesis 1.svg";
 import logo4 from "../../../Assets/Partners/Elsevier 1.svg";
 import logo5 from "../../../Assets/Partners/nvidia-seeklogo.com 1.svg";
@@ -22,15 +22,15 @@ import logo19 from "../../../Assets/Partners/logo-TelesisBio-RGB 1.svg";
 
 const Partners = () => {
 	const [contHeight, setHeight] = useState("200px");
-	const [buttonText, setButtonText] = useState("Show All (17)");
+	const [buttonText, setButtonText] = useState("Show All (16)");
 
 	function showAll() {
-		if (buttonText === "Show All (17)") {
+		if (buttonText === "Show All (16)") {
 			setHeight("fit-content");
 			setButtonText("Collapse");
 		} else {
 			setHeight("200px");
-			setButtonText("Show All (17)");
+			setButtonText("Show All (16)");
 		}
 	}
 	return (
@@ -46,9 +46,9 @@ const Partners = () => {
 				<div className="partners-card">
 					<img src={logo10} className="partners-logo"></img>
 				</div>
-				<div className="partners-card">
+				{/* <div className="partners-card">
 					<img src={logo2} className="partners-logo"></img>
-				</div>
+				</div> */}
 				<div className="partners-card">
 					<img src={logo17} className="partners-logo"></img>
 				</div>
