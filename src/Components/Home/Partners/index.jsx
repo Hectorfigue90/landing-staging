@@ -10,7 +10,7 @@ import logo7 from "../../../Assets/Partners/Amazon_Web_Services_Logo - Copy 1.sv
 // import logo8 from "../../../Assets/Partners/download 1.svg";
 import logo9 from "../../../Assets/Partners/image 380.svg";
 import logo10 from "../../../Assets/Partners/Capa 2.svg";
-import logo11 from "../../../Assets/Partners/image 379.svg";
+// import logo11 from "../../../Assets/Partners/image 379.svg";
 import logo12 from "../../../Assets/Partners/MGI-new-logo-1024x455 1.svg";
 import logo13 from "../../../Assets/Partners/Group.svg";
 // import logo14 from "../../../Assets/Partners/download (1) 1.svg";
@@ -22,7 +22,7 @@ import logo19 from "../../../Assets/Partners/logo-TelesisBio-RGB 1.svg";
 
 const Partners = () => {
 	const [contHeight, setHeight] = useState("200px");
-	const [buttonText, setButtonText] = useState("Show All (16)");
+	const [buttonText, setButtonText] = useState("Show All (15)");
 
 	function showAll() {
 		if (buttonText === "Show All (16)") {
@@ -75,9 +75,9 @@ const Partners = () => {
 				<div className="partners-card">
 					<img src={logo1} className="partners-logo"></img>
 				</div>
-				<div className="partners-card">
+				{/* <div className="partners-card">
 					<img src={logo11} className="partners-logo"></img>
-				</div>
+				</div> */}
 				<div className="partners-card">
 					<img src={logo12} className="partners-logo"></img>
 				</div>
