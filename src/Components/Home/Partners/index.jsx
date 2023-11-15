@@ -22,7 +22,7 @@ import logo19 from "../../../Assets/Partners/logo-TelesisBio-RGB 1.svg";
 
 const Partners = () => {
 	const [contHeight, setHeight] = useState("200px");
-	const [buttonText, setButtonText] = useState("Show All (15)");
+	const [buttonText, setButtonText] = useState("Show All (14)");
 
 	function showAll() {
 		if (buttonText === "Show All (14)") {
@@ -30,7 +30,7 @@ const Partners = () => {
 			setButtonText("Collapse");
 		} else {
 			setHeight("200px");
-			setButtonText("Show All (16)");
+			setButtonText("Show All (14)");
 		}
 	}
 	return (
