@@ -14,7 +14,7 @@ import logo10 from "../../../Assets/Partners/Capa 2.svg";
 import logo12 from "../../../Assets/Partners/MGI-new-logo-1024x455 1.svg";
 import logo13 from "../../../Assets/Partners/Group.svg";
 // import logo14 from "../../../Assets/Partners/download (1) 1.svg";
-import logo15 from "../../../Assets/Partners/image 384.svg";
+// import logo15 from "../../../Assets/Partners/image 384.svg";
 import logo16 from "../../../Assets/Partners/image 382.svg";
 import logo17 from "../../../Assets/Partners/Harvard_University_logo 1.svg";
 import logo18 from "../../../Assets/Partners/Frame 629635.svg";
@@ -25,7 +25,7 @@ const Partners = () => {
 	const [buttonText, setButtonText] = useState("Show All (15)");
 
 	function showAll() {
-		if (buttonText === "Show All (16)") {
+		if (buttonText === "Show All (14)") {
 			setHeight("fit-content");
 			setButtonText("Collapse");
 		} else {
@@ -88,9 +88,9 @@ const Partners = () => {
 				<div className="partners-card">
 					<img src={logo14} className="partners-logo"></img>
 				</div> */}
-				<div className="partners-card">
+				{/* <div className="partners-card">
 					<img src={logo15} className="partners-logo"></img>
-				</div>
+				</div> */}
 				<div className="partners-card">
 					<img src={logo16} className="partners-logo"></img>
 				</div>
