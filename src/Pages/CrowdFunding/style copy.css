@@ -1,0 +1,35 @@
+.crowdfunding-hero-wrapper {
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+  height: fit-content;
+  margin-bottom: 32px;
+}
+
+.crowdfunding-heroImage {
+  height: 490px;
+  width: 60%;
+}
+.crowdfunding-heroImage img {
+  object-fit: contain;
+  height: 490px;
+  width: 60%;
+}
+
+.crowfunding-outterWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.crowdfunding-campaigns-wrapper {
+  margin-top: 0px;
+}
+
+.steps-container-campaing {
+  width: 452px !important;
+  display: flex;
+  align-items: flex-end;
+}/*# sourceMappingURL=style copy.css.map */

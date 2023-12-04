@@ -75,6 +75,13 @@ const NavBar = () => {
 					>
 						Biotune
 					</a>
+					<a
+						onClick={() => {
+							navigate("/crowdfunding");
+						}}
+					>
+						Crowdfunding
+					</a>
 					<HashLink to={"/#contact"} smooth={true}>
 						Contact
 					</HashLink>

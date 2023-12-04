@@ -7,7 +7,7 @@ import Footer from "./Components/Structural/Footer";
 import Developers from "./Pages/Developers";
 import Mission from "./Pages/Mission";
 import Biotune from "./Pages/Biotune";
-
+import CrowdfundingPage from "./Pages/CrowdFunding";
 function App() {
 	return (
 		<Router>
@@ -17,6 +17,7 @@ function App() {
 				<Route exact path="/developers" element={<Developers />} />
 				<Route exact path="/mission" element={<Mission />} />
 				<Route exact path="/biotune" element={<Biotune />} />
+				<Route exact path="/crowdfunding" element={<CrowdfundingPage />} />
 			</Routes>
 			<Footer />
 		</Router>
