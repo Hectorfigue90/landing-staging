@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import imgA from "../../../Assets/CrowdfundingLanding/BoxingGlove.png";
 import imgB from "../../../Assets/CrowdfundingLanding/f4cureLogo.png";
+import { Link } from "react-router-dom";
 
 function FeaturedCampaings() {
 	return (

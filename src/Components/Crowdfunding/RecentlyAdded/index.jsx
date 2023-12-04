@@ -17,7 +17,7 @@ export const RecentlyAdded = () => {
 	return (
 		<div className="recently-added-container">
 			<div className="frame2">
-				<div className="placeholder">Recently added</div>
+				<div className="placeholder">Coming Soon </div>
 				<div className="div-wrapper">
 					<div className="text-wrapper">View all campaigns</div>
 				</div>
