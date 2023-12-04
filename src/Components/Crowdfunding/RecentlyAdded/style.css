@@ -2,31 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  overflow-x: scroll;
-  overflow-y: visible;
-  width: 87.5vw;
-  padding: 40px 0px;
+  padding: 40px 60px;
   padding-top: 40px;
-  /* Track */
-  /* Handle */
-  /* Handle on hover */
   padding-bottom: 10px;
-}
-.recently-added-container::-webkit-scrollbar {
-  background: #5498ee;
-  width: 0px;
-  height: 10px;
-  border-radius: 100px;
-}
-.recently-added-container::-webkit-scrollbar-track {
-  background: #ffffff;
-}
-.recently-added-container::-webkit-scrollbar-thumb {
-  background: #ececec;
-  border-radius: 100px;
-}
-.recently-added-container::-webkit-scrollbar-thumb:hover {
-  background: #5498ee;
 }
 
 /* width */
@@ -36,6 +14,26 @@
   padding-top: 20px;
   gap: 20px;
   justify-content: space-between;
+  overflow-x: scroll;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.frame-holderTemp::-webkit-scrollbar {
+  background: #5498ee;
+  width: 0px;
+  height: 10px;
+  border-radius: 100px;
+}
+.frame-holderTemp::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+.frame-holderTemp::-webkit-scrollbar-thumb {
+  background: #ececec;
+  border-radius: 100px;
+}
+.frame-holderTemp::-webkit-scrollbar-thumb:hover {
+  background: #5498ee;
 }
 
 .frame2 {
@@ -88,6 +86,7 @@
   flex-direction: row;
   justify-content: center;
   width: 32.5%;
+  padding-bottom: 30px;
 }
 
 .frame3 .group-wrapper {
@@ -95,7 +94,7 @@
   flex-direction: column;
   height: 285px;
   width: auto;
-  min-width: 400px;
+  min-width: 420px;
   max-width: 550px;
   border-radius: 20px;
   justify-content: center;

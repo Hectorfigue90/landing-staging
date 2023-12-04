@@ -12,7 +12,7 @@ function CrowdfundingPage() {
 			<div className="crowdfunding-hero-outterContainer">
 				<CrowdHero />
 			</div>
-			<div className="crowdfunding-hero-outterContainer">
+			<div className="crowdfunding-why-outterContainer">
 				<CrowdWhy />
 			</div>
 			<div className="crowdfunding-hero-outterContainer">
@@ -21,7 +21,7 @@ function CrowdfundingPage() {
 			<div className="crowdfunding-hero-outterContainer">
 				<FeaturedCampaings />
 			</div>
-			<div className="crowdfunding-hero-outterContainer">
+			<div className="crowdfunding-recentlyAdded-outterContainer">
 				<RecentlyAdded />
 			</div>
 		</div>
