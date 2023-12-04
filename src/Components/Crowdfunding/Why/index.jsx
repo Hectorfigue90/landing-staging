@@ -1,12 +1,25 @@
 import React from "react";
 import "./style.scss";
 import img from "../../../Assets/CrowdfundingLanding/whyCrowd.png";
+import img2 from "../../../Assets/CrowdfundingLanding/whyCrowd2.png";
 import { Link } from "react-router-dom";
+import Video from "../../../Assets/CrowdfundingLanding/CrowdfundingHi5mov.mp4";
 
 function CrowdWhy() {
 	return (
 		<div className="crowdfunding-why-container">
-			<img alt=" crowd mopving in one direction" src={img} />
+			<div className="video-crowd-wrapper">
+				<img alt=" crowd mopving in one direction" src={img} />
+				<img
+					className="img3-crowd"
+					alt=" crowd mopving in one direction"
+					src={img2}
+				/>
+				<video muted autoPlay={true} loop={true} playsInline>
+					<source src={Video} type="video/mp4" />
+				</video>
+			</div>
+
 			<div className="crowdfunding-whyText-container">
 				<div>
 					<h1>Why Prepaire </h1>

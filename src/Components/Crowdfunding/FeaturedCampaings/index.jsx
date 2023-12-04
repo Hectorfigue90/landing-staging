@@ -44,7 +44,7 @@ function FeaturedCampaings() {
 							crisis.
 						</p>
 						<div className="crowfunding-heroButton-container">
-							<button type="button" className="button-blue">
+							<button type="button" className="button-blue" onClick>
 								Learn more
 							</button>
 						</div>

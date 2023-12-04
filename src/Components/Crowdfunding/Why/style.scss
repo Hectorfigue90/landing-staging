@@ -35,10 +35,6 @@
 	.blue {
 		color: #5498ee;
 	}
-	img {
-		width: 50%;
-		margin-left: -40px;
-	}
 }
 
 .crowdfunding-whyText-container {
@@ -48,6 +44,53 @@
 	width: 43%;
 
 	div {
+		width: 100%;
+	}
+}
+
+.video-crowd-wrapper {
+	padding-top: 50px;
+	width: 45%;
+	height: 500px;
+	border-radius: 8px;
+	padding-left: 40px;
+	img {
+		position: absolute;
+		z-index: 1;
+		left: 20px;
+		width: 722px;
+		height: 579px;
+		margin-top: -60px;
+	}
+
+	.img3-crowd {
+		position: absolute;
+		z-index: 1;
+		left: 5%;
+
+		width: 722px;
+		height: 579px;
+		margin-top: -60px;
+		@media (min-width: 1250px) {
+			left: 1%;
+		}
+		@media (min-width: 1585px) {
+			left: 10%;
+		}
+		@media (min-width: 1726px) {
+			left: 12%;
+		}
+		@media (min-width: 1900px) {
+			left: 15%;
+		}
+	}
+
+	video {
+		border-radius: 8px;
+		width: 600px;
+		height: 450px;
+		object-fit: cover;
+		z-index: 0;
 		width: 100%;
 	}
 }
