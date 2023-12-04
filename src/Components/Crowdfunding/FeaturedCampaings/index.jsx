@@ -44,9 +44,14 @@ function FeaturedCampaings() {
 							crisis.
 						</p>
 						<div className="crowfunding-heroButton-container">
-							<button type="button" className="button-blue" onClick>
-								Learn more
-							</button>
+							<Link
+								className="button-blue"
+								to="https://app.prepaire.com:5067/#/fight4cure"
+								// to="https://prepaire-staging.vercel.app/#/login"
+							>
+								Start donating
+							</Link>
+							<button type="button">Create campaign</button>
 						</div>
 					</div>
 				</div>

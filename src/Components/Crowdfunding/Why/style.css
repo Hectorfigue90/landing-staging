@@ -57,6 +57,11 @@
   height: 579px;
   margin-top: -60px;
 }
+@media (min-width: 2000px) {
+  .video-crowd-wrapper img {
+    left: 160px;
+  }
+}
 .video-crowd-wrapper .img3-crowd {
   position: absolute;
   z-index: 1;
@@ -83,6 +88,11 @@
 @media (min-width: 1900px) {
   .video-crowd-wrapper .img3-crowd {
     left: 15%;
+  }
+}
+@media (min-width: 2000px) {
+  .video-crowd-wrapper .img3-crowd {
+    left: 80%;
   }
 }
 .video-crowd-wrapper video {
