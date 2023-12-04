@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
 import img from "../../../Assets/CrowdfundingLanding/whyCrowd.png";
+import { Link } from "react-router-dom";
 
 function CrowdWhy() {
 	return (
@@ -29,9 +30,13 @@ function CrowdWhy() {
 					</p>
 				</div>
 				<div className="crowfunding-heroButton-container">
-					<button type="button" className="button-blue">
+					<Link
+						className="button-blue"
+						to="https://app.prepaire.com:5067/#/crowdfunding"
+						// to="https://prepaire-staging.vercel.app/#/login"
+					>
 						Start donating
-					</button>
+					</Link>
 					<button type="button">Create campaign</button>
 				</div>
 			</div>

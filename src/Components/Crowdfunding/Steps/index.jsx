@@ -4,6 +4,7 @@ import img from "../../../Assets/CrowdfundingLanding/Kidsimage.png";
 import imgA from "../../../Assets/CrowdfundingLanding/target.png";
 import imgB from "../../../Assets/CrowdfundingLanding/HandDna.png";
 import imgC from "../../../Assets/CrowdfundingLanding/world.png";
+import { Link } from "react-router-dom";
 
 function CrowdSteps() {
 	return (
@@ -51,9 +52,13 @@ function CrowdSteps() {
 					</div>
 				</div>
 				<div className="crowfunding-heroButton-container">
-					<button type="button" className="button-blue">
+					<Link
+						className="button-blue"
+						to="https://app.prepaire.com:5067/#/crowdfunding"
+						// to="https://prepaire-staging.vercel.app/#/login"
+					>
 						Start donating
-					</button>
+					</Link>
 					<button type="button">Create campaign</button>
 				</div>
 			</div>

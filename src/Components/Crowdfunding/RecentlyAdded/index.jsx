@@ -9,6 +9,8 @@ import image3 from "../../../Assets/CrowdfundingLanding/recomendee/imageb.png";
 import image4 from "../../../Assets/CrowdfundingLanding/recomendee/iconb.png";
 import image5 from "../../../Assets/CrowdfundingLanding/recomendee/imagec.png";
 import image6 from "../../../Assets/CrowdfundingLanding/recomendee/iconc.png";
+import image7 from "../../../Assets/CrowdfundingLanding/recomendee/imaged.png";
+import image8 from "../../../Assets/CrowdfundingLanding/recomendee/icond.png";
 /* eslint-disable */
 
 export const RecentlyAdded = () => {
@@ -64,11 +66,11 @@ export const RecentlyAdded = () => {
 				<div className="frame3">
 					<div className="group-wrapper">
 						<div className="group">
-							<img className="DALLE" alt="Dalle" src={image5} />
+							<img className="DALLE" alt="Dalle" src={image7} />
 							<div className="div">
-								<img className="profile-pic" alt="Profile pic" src={image6} />
+								<img className="profile-pic" alt="Profile pic" src={image8} />
 								<p className="placeholder">
-									Innovative Drug Discovery App for Rare Diseases
+									Fight Against Lymelight: A Subcampaign for Lyme Disease
 								</p>
 							</div>
 						</div>
