@@ -71,12 +71,17 @@
 		position: absolute;
 		z-index: 1;
 		left: 5%;
-
+		display: flex;
 		width: 722px;
 		height: 579px;
 		margin-top: -60px;
+		@media (min-width: 350px) {
+			left: 1%;
+			display: none;
+		}
 		@media (min-width: 1250px) {
 			left: 1%;
+			display: none;
 		}
 		@media (min-width: 1585px) {
 			left: 10%;
@@ -99,5 +104,38 @@
 		object-fit: cover;
 		z-index: 0;
 		width: 100%;
+	}
+}
+
+@media (max-width: 1010px) {
+	.crowdfunding-why-container {
+		padding: 10px 5px;
+	}
+}
+
+@media (max-width: 850px) {
+	.crowdfunding-why-container {
+		padding: 10px 16px;
+		flex-direction: column;
+	}
+
+	.video-crowd-wrapper {
+		width: 90%;
+		padding: 0px;
+		padding-top: 50px;
+
+		img {
+			display: none;
+			width: 500px;
+			height: auto;
+		}
+	}
+
+	.crowdfunding-whyText-container {
+		width: 100%;
+	}
+
+	.img3-crowd {
+		display: none;
 	}
 }

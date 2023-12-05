@@ -85,7 +85,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 32.5%;
   padding-bottom: 30px;
 }
 
@@ -160,4 +159,10 @@
   width: 350px;
   position: relative;
   text-overflow: ellipsis;
+}
+
+@media (max-width: 1010px) {
+  .recently-added-container {
+    padding: 10px 16px;
+  }
 }/*# sourceMappingURL=style.css.map */

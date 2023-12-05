@@ -95,3 +95,30 @@
 
 	gap: 16px;
 }
+
+@media (max-width: 1010px) {
+	.crowdfunding-step-container {
+		padding: 10px 16px;
+	}
+}
+
+@media (max-width: 850px) {
+	.crowdfunding-step-container {
+		flex-direction: column-reverse;
+		padding-bottom: 40px;
+		img {
+			width: 100%;
+		}
+	}
+	.crowdfunding-stepCard-container {
+		width: 90%;
+
+		img {
+			margin: 0%;
+			position: relative;
+			display: flex;
+			width: 56px;
+			height: 56px;
+		}
+	}
+}

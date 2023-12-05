@@ -119,3 +119,23 @@
 		}
 	}
 }
+
+@media (max-width: 1010px) {
+	.crowdfunding-hero-container {
+		padding: 10px 16px;
+	}
+}
+
+@media (max-width: 850px) {
+	.crowdfunding-hero-container {
+		padding: 10px 16px;
+		flex-direction: column;
+		overflow: hidden;
+		width: 90%;
+		img {
+			height: 240px;
+			width: auto;
+			overflow: hidden;
+		}
+	}
+}
