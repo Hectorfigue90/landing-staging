@@ -18,7 +18,7 @@ const Footer = () => {
 						<div className="footer-logotext-container">
 							<span className="footer-p-tittle">Address</span>
 							<p>Prepaire Global Holdings </p>
-							<p>RENA Building - Masdar City - Abu Dhabi</p>
+							<p>IRENA Building - Masdar City - Abu Dhabi</p>
 							<p>United Arab Emirates</p>
 						</div>
 						<div className="footer-link-container">
