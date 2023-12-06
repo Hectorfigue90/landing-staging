@@ -3,7 +3,6 @@ import "./style.scss";
 import img from "../../../Assets/CrowdfundingLanding/subscription-image.png";
 
 function SubscriptionModal() {
-    cons
 	return (
 		<div className="subscriptionModal-bg">
 			<div className="subcriptionModal-container">

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import img from "../../../Assets/CrowdfundingLanding/ArrowImage.png";
 import { Link } from "react-router-dom";
-import SubscriptionModal from "../SubscriptionModal";
+// import SubscriptionModal from "../SubscriptionModal";
 
 function CrowdHero() {
 	return (
