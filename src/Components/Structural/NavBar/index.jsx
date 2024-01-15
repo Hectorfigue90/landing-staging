@@ -79,7 +79,7 @@ const NavBar = () => {
 						<a
 							onClick={() => {
 								navigate("/developers");
-								Openmenu();
+								// Openmenu();
 							}}
 						>
 							{" "}
@@ -88,7 +88,7 @@ const NavBar = () => {
 						<a
 							onClick={() => {
 								navigate("/mission");
-								Openmenu();
+								// Openmenu();
 							}}
 						>
 							Mission
@@ -96,7 +96,7 @@ const NavBar = () => {
 						<a
 							onClick={() => {
 								navigate("/biotune");
-								Openmenu();
+								// Openmenu();
 							}}
 						>
 							Biotune
@@ -104,7 +104,7 @@ const NavBar = () => {
 						<a
 							onClick={() => {
 								navigate("/crowdfunding");
-								Openmenu();
+								// Openmenu();
 							}}
 						>
 							Crowdfunding
