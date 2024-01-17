@@ -1,0 +1,112 @@
+.crowdfunding-step-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+  padding: 40px 60px;
+  gap: 16px;
+  text-align: left;
+}
+.crowdfunding-step-container h1 {
+  color: #2b2b2b;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -2.4px;
+}
+.crowdfunding-step-container h2 {
+  color: #5498ee;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.96px;
+}
+.crowdfunding-step-container .blue {
+  color: #5498ee;
+}
+.crowdfunding-step-container img {
+  width: 50%;
+}
+
+.crowdfunding-stepCards-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.crowdfunding-stepCard-container {
+  display: flex;
+  width: 60%;
+  padding: 12px;
+  justify-content: flex-start;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0%;
+}
+.crowdfunding-stepCard-container img {
+  margin: 0%;
+  position: relative;
+  display: flex;
+  width: 56px;
+  height: 56px;
+}
+.crowdfunding-stepCard-container h2 {
+  display: flex;
+  color: #2b2b2b;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.crowdfunding-stepCard-container p {
+  display: flex;
+  color: rgba(43, 43, 43, 0.7);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.crowdfunding-stepCardText-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.crowdfunding-stepText-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 1010px) {
+  .crowdfunding-step-container {
+    padding: 10px 16px;
+  }
+}
+@media (max-width: 850px) {
+  .crowdfunding-step-container {
+    flex-direction: column-reverse;
+    padding-bottom: 40px;
+  }
+  .crowdfunding-step-container img {
+    width: 100%;
+  }
+  .crowdfunding-stepCard-container {
+    width: 90%;
+  }
+  .crowdfunding-stepCard-container img {
+    margin: 0%;
+    position: relative;
+    display: flex;
+    width: 56px;
+    height: 56px;
+  }
+}/*# sourceMappingURL=style.css.map */

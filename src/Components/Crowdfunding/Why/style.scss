@@ -1,0 +1,141 @@
+.crowdfunding-why-container {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	align-items: center;
+	padding: 40px 60px;
+	gap: auto;
+	background: #f5f5f5;
+	justify-content: space-between;
+	max-width: 1800px;
+
+	h1 {
+		color: #2b2b2b;
+
+		font-family: Inter;
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 52px; /* 108.333% */
+		letter-spacing: -2.4px;
+	}
+
+	p {
+		overflow: hidden;
+		color: #2b2b2b;
+
+		text-overflow: ellipsis;
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+	}
+
+	.blue {
+		color: #5498ee;
+	}
+}
+
+.crowdfunding-whyText-container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 43%;
+
+	div {
+		width: 100%;
+	}
+}
+
+.video-crowd-wrapper {
+	padding-top: 50px;
+	width: 45%;
+	height: 500px;
+	border-radius: 8px;
+	padding-left: 40px;
+	img {
+		position: absolute;
+		z-index: 1;
+		left: 20px;
+		width: 722px;
+		height: 579px;
+		margin-top: -60px;
+
+		@media (min-width: 2000px) {
+			left: 160px;
+		}
+	}
+
+	.img3-crowd {
+		position: absolute;
+		z-index: 1;
+		left: 5%;
+		display: flex;
+		width: 722px;
+		height: 579px;
+		margin-top: -60px;
+		@media (min-width: 350px) {
+			left: 1%;
+			display: none;
+		}
+		@media (min-width: 1250px) {
+			left: 1%;
+			display: none;
+		}
+		@media (min-width: 1585px) {
+			left: 10%;
+		}
+		@media (min-width: 1726px) {
+			left: 12%;
+		}
+		@media (min-width: 1900px) {
+			left: 15%;
+		}
+		@media (min-width: 2000px) {
+			left: 80%;
+		}
+	}
+
+	video {
+		border-radius: 8px;
+		width: 600px;
+		height: 450px;
+		object-fit: cover;
+		z-index: 0;
+		width: 100%;
+	}
+}
+
+@media (max-width: 1010px) {
+	.crowdfunding-why-container {
+		padding: 10px 5px;
+	}
+}
+
+@media (max-width: 850px) {
+	.crowdfunding-why-container {
+		padding: 10px 16px;
+		flex-direction: column;
+	}
+
+	.video-crowd-wrapper {
+		width: 90%;
+		padding: 0px;
+		padding-top: 50px;
+
+		img {
+			display: none;
+			width: 500px;
+			height: auto;
+		}
+	}
+
+	.crowdfunding-whyText-container {
+		width: 100%;
+	}
+
+	.img3-crowd {
+		display: none;
+	}
+}

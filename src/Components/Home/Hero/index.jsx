@@ -31,8 +31,8 @@ const Hero = () => {
 					<div className="mobile-out">
 						<Link
 							className="button-primary"
-							// to="https://app.prepaire.com:5067/#/marketplace"
-							to="https://prepaire-staging.vercel.app/#/signup"
+							to="https://app.prepaire.com:5067/#/signup"
+							// to="https://prepaire-staging.vercel.app/#/signup"
 						>
 							Get started
 						</Link>

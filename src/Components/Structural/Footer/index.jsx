@@ -17,10 +17,10 @@ const Footer = () => {
 					<div className="footer-text-container">
 						<div className="footer-logotext-container">
 							<span className="footer-p-tittle">Address</span>
-							<p>14th floor, ONE JLT Building </p>
-							<p>Jumeriah Lake Towers</p>
-							<p>Dubai, 103805</p>
-							<p>U.A.E.</p>
+							<p>Prepaire Global Holdings </p>
+							<p>IRENA Building - Masdar City </p>
+							<p>Abu Dhabi</p>
+							<p>United Arab Emirates</p>
 						</div>
 						<div className="footer-link-container">
 							<span className="footer-p-tittle">Company</span>
