@@ -41,7 +41,7 @@ const HomePage = () => {
 				<div className="partners-outter-container">
 					<Partners />
 				</div>
-				<div className="publications-outter-container">
+				<div id="press" className="publications-outter-container">
 					<Publications />
 				</div>
 				<div id="contact" className="contactUs-outter-container">
