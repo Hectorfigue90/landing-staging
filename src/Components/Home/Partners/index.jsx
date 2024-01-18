@@ -36,7 +36,8 @@ const Partners = () => {
 	return (
 		<div className="partners-container">
 			<div className="partners-text-container">
-				<p className="partners-tittle">OUR PARTNERS</p>
+				<p className="partners-tittle">Our<span className="color-inlineVariation-blue">
+					Partners</span></p>
 				<p>
 					Our partners are at the forefront of innovation, driving advancements
 					that transform healthcare.

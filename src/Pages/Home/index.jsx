@@ -10,6 +10,7 @@ import TherapyFacilities from "../../Components/Home/TherapyFacilities";
 import Partners from "../../Components/Home/Partners";
 // import ContactUs from "../../Components/Home/ContactUs";
 import Contact from "../../Components/Home/Contact";
+import Publications from "../../Components/Home/Publications";
 // import NavBar from "../../Components/Structural/NavBar";
 
 const HomePage = () => {
@@ -39,6 +40,9 @@ const HomePage = () => {
 				</div>
 				<div className="partners-outter-container">
 					<Partners />
+				</div>
+				<div className="publications-outter-container">
+					<Publications />
 				</div>
 				<div id="contact" className="contactUs-outter-container">
 					<Contact />

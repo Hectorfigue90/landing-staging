@@ -81,6 +81,13 @@
   justify-content: center;
 }
 
+.publications-outter-container {
+  width: 100%;
+  max-width: 1600px;
+  margin-bottom: 90px;
+  justify-content: center;
+}
+
 .partners-outter-container {
   width: 100%;
   max-width: 1600px;
