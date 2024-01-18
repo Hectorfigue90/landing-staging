@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from "react";
 import "./style.scss";
-import publication1 from "../../../Assets/Publications/publication1.png";
+import publication1 from "../../../Assets/Publications/publication-main-img.svg";
 import publicationSmall from "../../../Assets/Publications/publication-small-screen.svg";
-import publication2 from "../../../Assets/Publications/publication-image-2.svg";
-import publication3 from "../../../Assets/Publications/publication-image-3.png";
-import publication4 from "../../../Assets/Publications/publication-image-4.png";
+import publication2 from "../../../Assets/Publications/prepaire-logo.svg";
+import publication3 from "../../../Assets/Publications/einpresswire.png";
+import publication4 from "../../../Assets/Publications/ktms.png";
 
 const Publications = () => {
 

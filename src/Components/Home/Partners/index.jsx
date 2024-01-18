@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import "./style.scss";
 import logo1 from "../../../Assets/Partners/Drugbank_logo.svg";
 // import logo2 from "../../../Assets/Partners/chemify_logo_wmohln 1.svg";
-import logo3 from "../../../Assets/Partners/syndesis 1.svg";
+// import logo3 from "../../../Assets/Partners/syndesis 1.svg";
 import logo4 from "../../../Assets/Partners/Elsevier 1.svg";
 import logo5 from "../../../Assets/Partners/nvidia-seeklogo.com 1.svg";
 import logo6 from "../../../Assets/Partners/cellink_bico_w 1.svg";
 import logo7 from "../../../Assets/Partners/Amazon_Web_Services_Logo - Copy 1.svg";
 // import logo8 from "../../../Assets/Partners/download 1.svg";
-import logo9 from "../../../Assets/Partners/image 380.svg";
+// import logo9 from "../../../Assets/Partners/image 380.svg";
 import logo10 from "../../../Assets/Partners/Capa 2.svg";
 // import logo11 from "../../../Assets/Partners/image 379.svg";
 import logo12 from "../../../Assets/Partners/MGI-new-logo-1024x455 1.svg";
@@ -19,6 +19,14 @@ import logo16 from "../../../Assets/Partners/image 382.svg";
 import logo17 from "../../../Assets/Partners/Harvard_University_logo 1.svg";
 import logo18 from "../../../Assets/Partners/Frame 629635.svg";
 import logo19 from "../../../Assets/Partners/logo-TelesisBio-RGB 1.svg";
+import chemifyLogo from "../../../Assets/Partners/chemify_logo.svg";
+// import telsisBio from "../../../Assets/Partners/telesisBio.svg";
+import healthnieers from "../../../Assets/Partners/healthnieers.svg";
+import botspot from "../../../Assets/Partners/botspot.svg";
+import chemspeed from "../../../Assets/Partners/chemspeed.svg";
+import azenta from "../../../Assets/Partners/azenta.svg";
+import temper from "../../../Assets/Partners/tempers.svg";
+import emulate from "../../../Assets/Partners/emulate.svg";
 
 const Partners = () => {
 	const [contHeight, setHeight] = useState("200px");
@@ -58,8 +66,13 @@ const Partners = () => {
 				</div>
 
 				<div className="partners-card">
+					<img src={chemifyLogo} className="partners-logo"></img>
+				</div>
+
+				<div className="partners-card">
 					<img src={logo5} className="partners-logo"></img>
 				</div>
+
 				<div className="partners-card">
 					<img src={logo6} className="partners-logo"></img>
 				</div>
@@ -70,9 +83,6 @@ const Partners = () => {
 					<img src={logo13} className="partners-logo"></img>
 				</div>
 
-				<div className="partners-card">
-					<img src={logo9} className="partners-logo"></img>
-				</div>
 				<div className="partners-card">
 					<img src={logo1} className="partners-logo"></img>
 				</div>
@@ -97,14 +107,35 @@ const Partners = () => {
 				</div>
 
 				<div className="partners-card">
-					<img src={logo3} className="partners-logo"></img>
-				</div>
-				<div className="partners-card">
 					<img src={logo18} className="partners-logo"></img>
 				</div>
 				<div className="partners-card">
 					<img src={logo19} className="partners-logo"></img>
 				</div>
+				<div className="partners-card">
+					<img src={healthnieers} className="partners-logo"></img>
+				</div>
+
+				<div className="partners-card">
+					<img src={botspot} className="partners-logo"></img>
+				</div>
+
+				<div className="partners-card">
+					<img src={chemspeed} className="partners-logo"></img>
+				</div>
+
+				<div className="partners-card">
+					<img src={azenta} className="partners-logo"></img>
+				</div>
+
+				<div className="partners-card">
+					<img src={temper} className="partners-logo"></img>
+				</div>
+
+				<div className="partners-card">
+					<img src={emulate} className="partners-logo"></img>
+				</div>
+
 			</div>
 			<div className="partner-button-wrapper">
 				<button className="button-secondary" onClick={showAll}>
