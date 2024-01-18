@@ -71,7 +71,21 @@
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+  transition: all 2s ease;
 }
+
+.publication-content-upper-container:hover {
+  .publication-press-title {
+    color:   #5498EE;
+  }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  .publication-image-1 {
+    transform: scale(1.02);
+  }
+}
+
+
 
 .publication-image {
   flex-basis: 50%;
@@ -88,6 +102,18 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  transition: all 2s ease;
+}
+
+.small-publication-container:hover {
+  .publication-small-title {
+    color:   #5498EE;
+  }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  .img-responsive {
+    transform: scale(1.02);
+  }
 }
 
 .publication-lower-container {
