@@ -36,7 +36,7 @@ const Publications = () => {
 				</p>
 			</div>
 			<div className="publication-content-upper-container" onClick={() => {
-				handleLink("https://www.einpresswire.com/article/682102004/chemify-and-prepaire-labs-partner-to-apply-chemistry-ai-robotics-to-accelerate-discovery-of-non-addictive-opioids");
+				handleLink("https://noah-news.com/us/en/health/2024/01/18/scottish-firm-chemify-collaborates-with-prepaire-labs-to-develop-non-addictive-opioids");
 			}}>
 				<div className='publication-image'>
 					<img src={windowWidth >= 1256 ? publication1: publicationSmall} alt="publication-1" className="publication-image-1" />
