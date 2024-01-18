@@ -109,8 +109,8 @@ const NavBar = () => {
 						>
 							Crowdfunding
 						</a>
-						<HashLink to={"/#press"} smooth={true}>
-							Press
+						<HashLink to={"/#news"} smooth={true}>
+							News
 						</HashLink>
 						<HashLink to={"/#contact"} smooth={true}>
 							Contact
