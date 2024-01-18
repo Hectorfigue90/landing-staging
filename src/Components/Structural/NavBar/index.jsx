@@ -124,13 +124,6 @@ const NavBar = () => {
 						>
 							Log in
 						</Link>
-						<Link
-							className="button-primary"
-							to="https://app.prepaire.com:5067/#/signup"
-							// to="https://prepaire-staging.vercel.app/#/signup"
-						>
-							Sign up
-						</Link>
 					</div>
 				</div>
 

@@ -61,6 +61,7 @@
 }
 
 .publication-content-upper-container {
+  cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 24px;
@@ -71,6 +72,7 @@
 }
 
 .small-publication-container {
+  cursor: pointer;
   width: 502.67px;
   height: 378px;
   border-radius: 8px;
