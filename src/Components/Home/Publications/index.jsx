@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import "./style.scss";
 import publication1 from "../../../Assets/Publications/publication-main-img.svg";
 import publicationSmall from "../../../Assets/Publications/publication-small-screen.svg";
@@ -7,7 +7,6 @@ import publication3 from "../../../Assets/Publications/einpresswire.png";
 import publication4 from "../../../Assets/Publications/ktms.png";
 
 const Publications = () => {
-
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
 	useEffect(() => {
@@ -27,22 +26,27 @@ const Publications = () => {
 		<div className="publication-container">
 			<div className="publication-text-container">
 				<p className="publication-tittle">
-					Publications&nbsp;&<span className="color-inlineVariation-blue">Press</span>
+					Publications&nbsp;&
+					<span className="color-inlineVariation-blue">Press</span>
 				</p>
 			</div>
 			<div className="publication-content-upper-container">
-				<div className='publication-image'>
-					<img src={windowWidth >= 1256 ? publication1: publicationSmall} alt="publication-1" className="publication-image-1" />
+				<div className="publication-image">
+					<img
+						src={windowWidth >= 1256 ? publication1 : publicationSmall}
+						alt="publication-1"
+						className="publication-image-1"
+					/>
 				</div>
 				<div className="publication-image-1">
 					<div className="publication-1-text-container">
 						<p className="publication-press-name">PREPAIRE LABS</p>
 						<p className="publication-press-title">
-							Chemify Partners with Prepaire Labs to Apply Ground-breaking Chemistry AI Robotics to Radically Accelerate the Discovery of Non-Addictive Opioids
+							Chemify Partners with Prepaire Labs to Apply Ground-breaking
+							Chemistry AI Robotics to Radically Accelerate the Discovery of
+							Non-Addictive Opioids
 						</p>
-						<p className="publication-press-date">
-							January 18, 2024
-						</p>
+						<p className="publication-press-date">January 18, 2024</p>
 					</div>
 				</div>
 			</div>
@@ -53,7 +57,10 @@ const Publications = () => {
 					</div>
 					<div className="publication-2-content-container">
 						<p className="publication-small-press-name">Kalkine media</p>
-						<p className="publication-small-title">Prepaire Labs and Syndesis Announce Strategic Partnership to Transform Global Health Outcomes</p>
+						<p className="publication-small-title">
+							Prepaire Labs and Syndesis Announce Strategic Partnership to
+							Transform Global Health Outcomes
+						</p>
 						<p className="publication-small-date">August 14, 2023</p>
 					</div>
 				</div>
@@ -63,7 +70,10 @@ const Publications = () => {
 					</div>
 					<div className="publication-2-content-container">
 						<p className="publication-small-press-name">einpresswire</p>
-						<p className="publication-small-title">Prepaire Labs Acquires State-of-the-Art 3D Bioprinter from CELLINK for New UAE Research Lab</p>
+						<p className="publication-small-title">
+							Prepaire Labs Acquires State-of-the-Art 3D Bioprinter from CELLINK
+							for New UAE Research Lab
+						</p>
 						<p className="publication-small-date">June 05, 2023</p>
 					</div>
 				</div>
@@ -73,13 +83,13 @@ const Publications = () => {
 					</div>
 					<div className="publication-2-content-container">
 						<p className="publication-small-press-name">KTMS</p>
-						<p className="publication-small-title">Prepaire Labs™ Receives Two Patents for New Anti-Viral Drug</p>
+						<p className="publication-small-title">
+							Prepaire Labs™ Receives Two Patents for New Anti-Viral Drug
+						</p>
 						<p className="publication-small-date">June 12, 2023</p>
 					</div>
 				</div>
 			</div>
-
-
 		</div>
 	);
 };
