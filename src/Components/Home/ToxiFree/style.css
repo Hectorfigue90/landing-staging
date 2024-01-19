@@ -18,6 +18,11 @@
   position: relative;
   overflow: hidden;
 }
+@media only screen and (max-width: 1600px) {
+  .discoverMainCard-container {
+    background-size: 45%;
+  }
+}
 @media only screen and (max-width: 752px) {
   .discoverMainCard-container {
     background-position-y: 130%;
@@ -32,7 +37,7 @@
 }
 @media only screen and (max-width: 520px) {
   .discoverMainCard-container {
-    background-position-x: 50px;
+    background-position-x: 40px;
     background-position-y: 120%;
     height: fit-content;
     padding-bottom: 152px;
@@ -92,6 +97,11 @@
   letter-spacing: -0.32px;
   color: rgba(43, 43, 43, 0.7);
 }
+@media only screen and (min-width: 1500px) {
+  .text-frame-discoverMainCards p {
+    width: 50%;
+  }
+}
 @media only screen and (max-width: 752px) {
   .text-frame-discoverMainCards p {
     width: 100%;
@@ -105,6 +115,11 @@
 .text-frame-discoverMainCards .button-primary {
   background-color: #5498ee;
   color: #ffffff;
+}
+@media only screen and (max-width: 752px) {
+  .text-frame-discoverMainCards {
+    width: 100%;
+  }
 }
 
 .img-side {

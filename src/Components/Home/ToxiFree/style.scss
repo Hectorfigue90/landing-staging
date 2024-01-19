@@ -19,6 +19,10 @@
 	position: relative;
 	overflow: hidden;
 
+	@media only screen and (max-width: 1600px) {
+		background-size: 45%;
+	}
+
 	@media only screen and (max-width: 752px) {
 		background-position-y: 130%;
 		height: fit-content;
@@ -28,7 +32,7 @@
 		height: fit-content;
 	}
 	@media only screen and (max-width: 520px) {
-		background-position-x: 50px;
+		background-position-x: 40px;
 		background-position-y: 120%;
 		height: fit-content;
 		padding-bottom: 152px;
@@ -95,6 +99,9 @@
 
 		color: rgba(43, 43, 43, 0.7);
 
+		@media only screen and (min-width: 1500px) {
+			width: 50%;
+		}
 		@media only screen and (max-width: 752px) {
 			width: 100%;
 		}
@@ -107,6 +114,10 @@
 	.button-primary {
 		background-color: #5498ee;
 		color: #ffffff;
+	}
+
+	@media only screen and (max-width: 752px) {
+		width: 100%;
 	}
 }
 
