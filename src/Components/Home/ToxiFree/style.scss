@@ -1,0 +1,129 @@
+.discoverMainCard-container {
+	display: flex;
+	width: 100vw;
+	height: fit-content;
+	min-width: 300px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	padding: 40px 60px;
+	max-width: 1480px;
+	background-image: url("../../../Assets/discoverBanner/pill.png");
+
+	background-position-x: right;
+	background-position-y: bottom;
+	background-size: contain;
+	background-size: 40%;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+
+	@media only screen and (max-width: 752px) {
+		background-position-y: 130%;
+		height: fit-content;
+	}
+	@media only screen and (max-width: 636px) {
+		background-position-y: 120%;
+		height: fit-content;
+	}
+	@media only screen and (max-width: 520px) {
+		background-position-x: 50px;
+		background-position-y: 120%;
+		height: fit-content;
+		padding-bottom: 152px;
+		background-size: 80%;
+	}
+}
+
+.background-image {
+	position: absolute;
+}
+
+.text-frame-discoverMainCards {
+	text-align: left;
+	display: inline-flex;
+
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 24px;
+	border-radius: 10px;
+
+	.banner-heading {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		column-gap: 12px;
+		text-align: left;
+
+		img {
+			display: flex;
+		}
+	}
+
+	h2 {
+		min-width: 80%;
+		font-size: 46px;
+		font-weight: bold;
+		letter-spacing: -2px;
+		color: #2e2e2e;
+
+		span {
+			color: #5498ee;
+		}
+
+		@media only screen and (max-width: 630px) {
+			font-size: 36px;
+		}
+	}
+
+	.blue {
+		color: #5498ee;
+	}
+
+	p {
+		width: 45%;
+
+		font-family: Inter;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px; /* 150% */
+		letter-spacing: -0.32px;
+
+		color: rgba(43, 43, 43, 0.7);
+
+		@media only screen and (max-width: 752px) {
+			width: 100%;
+		}
+	}
+	img {
+		width: 100px;
+		margin-bottom: 24px;
+		box-shadow: 0px 7.143px 7.143px 0px rgba(5, 21, 30, 0.04);
+	}
+	.button-primary {
+		background-color: #5498ee;
+		color: #ffffff;
+	}
+}
+
+.img-side {
+	position: relative;
+
+	z-index: 7;
+
+	bottom: 0;
+	img {
+		width: 55%;
+		height: 55%;
+	}
+}
+
+.new-tag {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
