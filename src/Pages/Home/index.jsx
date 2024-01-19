@@ -11,6 +11,8 @@ import Partners from "../../Components/Home/Partners";
 // import ContactUs from "../../Components/Home/ContactUs";
 import Contact from "../../Components/Home/Contact";
 import Publications from "../../Components/Home/Publications";
+import ToxiFree from "../../Components/Home/ToxiFree";
+// import newTag from "../../Assets/discoverBanner/new-tag.svg";
 // import NavBar from "../../Components/Structural/NavBar";
 
 const HomePage = () => {
@@ -23,9 +25,16 @@ const HomePage = () => {
 				<div className="apps-outter-container">
 					<Apps />
 				</div>
+				<div id="appStore" className="toxi-outter-container">
+					<ToxiFree />
+					{/* <div className="new-tag">
+						<img src={newTag} alt="pill" />
+					</div> */}
+				</div>
 				<div id="appStore" className="appStore-outter-container">
 					<AppStore />
 				</div>
+
 				<div id="mission" className="drugDiscovery-outter-container">
 					<DrugDiscovery />
 				</div>
