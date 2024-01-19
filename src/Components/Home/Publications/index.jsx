@@ -123,7 +123,7 @@ const Publications = () => {
             <p className="publication-small-title">
               Prepaire Labs™ Receives Two Patents for New Anti-Viral Drug
             </p>
-            <p className="publication-small-date">June 12, 2023</p>
+            <p className="publication-small-date" style={{marginTop:'6%'}}>June 12, 2023</p>
           </div>
         </div>
       </div>
