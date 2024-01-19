@@ -39,7 +39,7 @@ const Publications = () => {
 				className="publication-content-upper-container"
 				onClick={() => {
 					handleLink(
-						"https://www.einpresswire.com/article/682102004/chemify-and-prepaire-labs-partner-to-apply-chemistry-ai-robotics-to-accelerate-discovery-of-non-addictive-opioids"
+						"https://noah-news.com/us/en/health/2024/01/18/scottish-firm-chemify-collaborates-with-prepaire-labs-to-develop-non-addictive-opioids"
 					);
 				}}
 			>
@@ -112,14 +112,21 @@ const Publications = () => {
 					}}
 				>
 					<div className="publication-2-img-container">
-						<img src={publication4} className="img-responsive" />
+						<img
+							src={publication4}
+							className="img-responsive"
+							style={{ height: "100%" }}
+						/>
 					</div>
 					<div className="publication-2-content-container">
 						<p className="publication-small-press-name">KTMS</p>
 						<p className="publication-small-title">
 							Prepaire Labs™ Receives Two Patents for New Anti-Viral Drug
 						</p>
-						<p className="publication-small-date">June 12, 2023</p>
+
+						<p className="publication-small-date" style={{ marginTop: "6%" }}>
+							June 12, 2023
+						</p>
 					</div>
 				</div>
 			</div>
