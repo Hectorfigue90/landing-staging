@@ -1,13 +1,11 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+
 import "./style.scss";
 import toxifreeIcon from "../../../Assets/discoverBanner/toxifree-icon.svg";
 import { Link } from "react-router-dom";
 // import pillIcon from "../../../Assets/discoverBanner/pill.png";
 
 const ToxiFree = () => {
-	const navigate = useNavigate();
-
 	return (
 		<div className="discoverMainCard-container">
 			<div className="text-frame-discoverMainCards">

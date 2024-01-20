@@ -9,7 +9,7 @@ import logo6 from "../../../Assets/Partners/cellink_bico_w 1.svg";
 import logo7 from "../../../Assets/Partners/Amazon_Web_Services_Logo - Copy 1.svg";
 // import logo8 from "../../../Assets/Partners/download 1.svg";
 // import logo9 from "../../../Assets/Partners/image 380.svg";
-import logo10 from "../../../Assets/Partners/Capa 2.svg";
+import logo10 from "../../../Assets/Partners/Capa 2.png";
 // import logo11 from "../../../Assets/Partners/image 379.svg";
 import logo12 from "../../../Assets/Partners/MGI-new-logo-1024x455 1.png";
 import logo13 from "../../../Assets/Partners/Group.svg";
