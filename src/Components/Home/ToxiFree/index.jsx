@@ -1,11 +1,12 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style.scss";
 import toxifreeIcon from "../../../Assets/discoverBanner/toxifree-icon.svg";
 // import pillIcon from "../../../Assets/discoverBanner/pill.png";
 
 const ToxiFree = () => {
-	const navigate = useNavigate();
+	// const navigate = useNavigate();
 
 	return (
 		<div className="discoverMainCard-container">
@@ -33,7 +34,7 @@ const ToxiFree = () => {
 					precise customization of peptides, promising tailored therapies and
 					vaccines.
 				</p>
-				<button
+				{/* <button
 					className="button-primary"
 					type="button"
 					onClick={() =>
@@ -41,7 +42,13 @@ const ToxiFree = () => {
 					}
 				>
 					Check it out now!
-				</button>
+				</button> */}
+				<Link
+					className="button-primary"
+					to="https://app.prepaire.com:5067/#/marketplace"
+				>
+					Check it out now!
+				</Link>
 			</div>
 			{/* <div className="img-side">
 				<img src={pillIcon} alt="pill" />
