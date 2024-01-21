@@ -10,9 +10,20 @@ const ToxiFree = () => {
 	return (
 		<div className="discoverMainCard-container">
 			<div className="text-frame-discoverMainCards">
-				<div className="banner-heading">
+				{/* <div className="banner-heading">
+					
 					<img src={toxifreeIcon} alt="toxifree" />
-					<h2>Toxifree the app to combat</h2>
+					 <h2>The Toxifree(tm) app to combat</h2>
+					<h2>The Toxifree&trade; app to combat</h2>
+					<h2> The<span className="toxifree-text" style={{color:"#2e2e2e"}}>Toxifree&trade;</span> app to combat</h2>
+					<h2 className="blue">drug addiction</h2>
+				</div> */}
+				<div className="banner-heading">
+					<div className="logo-text">
+						<img src={toxifreeIcon} alt="toxifree" />
+						<h2>Toxifree&trade;</h2>
+					</div>
+					<h2> The app to combat</h2>
 					<h2 className="blue">drug addiction</h2>
 				</div>
 				<p>
@@ -35,7 +46,8 @@ const ToxiFree = () => {
 			{/* <div className="img-side">
 				<img src={pillIcon} alt="pill" />
 			</div> */}
-			<div className="new-tag">{/* <img src={newTag} alt="pill" /> */}</div>
+			{/* <div className="new-tag"><img src={newTag} alt="pill" /></div> */}
+			{/* <div className="new-tag"></div> */}
 		</div>
 	);
 };
