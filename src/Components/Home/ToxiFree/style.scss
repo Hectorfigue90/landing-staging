@@ -108,7 +108,7 @@
 	}
 	img {
 		width: 100px;
-		margin-bottom: 24px;
+		// margin-bottom: 24px;
 		box-shadow: 0px 7.143px 7.143px 0px rgba(5, 21, 30, 0.04);
 	}
 	.button-primary {
@@ -151,5 +151,9 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
+	img{
+		border-radius: 16px;
+	}
+	margin-bottom: 24px;
   }
   
