@@ -13,7 +13,6 @@
   margin-bottom: 110px;
   margin-top: -100px;
   border: 1px solid var(--Prepaire-Stroke-Color, rgba(0, 0, 0, 0.1));
-  background-image: url("../../Assets/discoverBanner/new-tag.svg");
   background-repeat: no-repeat;
   background-position-x: right;
 }
