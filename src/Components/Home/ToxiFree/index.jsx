@@ -12,7 +12,8 @@ const ToxiFree = () => {
 			<div className="text-frame-discoverMainCards">
 				<div className="banner-heading">
 					<img src={toxifreeIcon} alt="toxifree" />
-					<h2>The Toxifree(tm) app to combat</h2>
+					{/* <h2>The Toxifree(tm) app to combat</h2> */}
+					<h2>The Toxifree&trade; app to combat</h2>
 					<h2 className="blue">drug addiction</h2>
 				</div>
 				<p>
