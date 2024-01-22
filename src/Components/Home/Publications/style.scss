@@ -345,7 +345,12 @@
   }
 
   .publication-2-img-container {
-    height: 182px;
+    // height: 182px;
+    height: 296px;
+    width: 95%;
+    .img-responsive{
+      width: 100%;
+    }
   }
 
   .publication-content-upper-container {
