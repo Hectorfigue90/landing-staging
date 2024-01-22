@@ -52,7 +52,8 @@ const Publications = () => {
 				</div>
 				<div className="publication-image-1">
 					<div className="publication-1-text-container">
-						<p className="publication-press-name">PREPAIRE LABS</p>
+						{/* <p className="publication-press-name">PREPAIRE LABS</p> */}
+						<p className="publication-press-name">Noah News</p>
 						<p className="publication-press-title">
 							Chemify Partners with Prepaire Labs to Apply Ground-breaking
 							Chemistry AI Robotics to Radically Accelerate the Discovery of
@@ -124,7 +125,10 @@ const Publications = () => {
 							Prepaire Labs™ Receives Two Patents for New Anti-Viral Drug
 						</p>
 
-						<p className="publication-small-date" style={{ marginTop: "6%" }}>
+						{/* <p className="publication-small-date" style={{ marginTop: "6%" }}>
+							June 12, 2023
+						</p> */}
+						<p className="publication-small-date-last-card">
 							June 12, 2023
 						</p>
 					</div>
