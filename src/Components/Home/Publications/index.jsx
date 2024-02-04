@@ -3,9 +3,10 @@ import "./style.scss";
 import publication1 from "../../../Assets/Publications/publication-main-img.svg";
 import publicationSmall from "../../../Assets/Publications/publication-small-screen.svg";
 // import publication2 from "../../../Assets/Publications/prepaire-logo.svg";
-import publication2 from "../../../Assets/Publications/newlogo.svg";
+// import publication2 from "../../../Assets/Publications/newlogo.svg";
 import publication3 from "../../../Assets/Publications/einpresswire.png";
 import publication4 from "../../../Assets/Publications/ktms.png";
+import publication5 from "../../../Assets/Publications/irena-building.jpeg";
 
 const Publications = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -67,20 +68,20 @@ const Publications = () => {
 					className="small-publication-container"
 					onClick={() => {
 						handleLink(
-							"https://www.einpresswire.com/article/637477160/prepaire-labs-acquires-state-of-the-art-3d-bioprinter-from-cellink-for-new-uae-research-lab"
+							"https://www.einpresswire.com/shareable-preview/9bicFvh3eOlMv1FEWavuoQ"
 						);
 					}}
 				>
 					<div className="publication-2-img-container">
-						<img src={publication2} className="img-responsive" />
+						<img src={publication5} className="img-responsive2" />
 					</div>
 					<div className="publication-2-content-container">
-						<p className="publication-small-press-name">Kalkine media</p>
+						<p className="publication-small-press-name">einpresswire</p>
 						<p className="publication-small-title">
-							Prepaire Labs and Syndesis Announce Strategic Partnership to
-							Transform Global Health Outcomes
+							Prepaire Labs announced a groundbreaking initiative to achieve
+							carbon neutrality.
 						</p>
-						<p className="publication-small-date">August 14, 2023</p>
+						<p className="publication-small-date">January 04, 2024</p>
 					</div>
 				</div>
 				<div
