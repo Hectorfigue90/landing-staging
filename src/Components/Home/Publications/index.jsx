@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./style.scss";
 import publication1 from "../../../Assets/Publications/publication-main-img.svg";
-import publicationSmall from "../../../Assets/Publications/publication-small-screen.svg";
+// import publicationSmall from "../../../Assets/Publications/publication-small-screen.svg";
 // import publication2 from "../../../Assets/Publications/prepaire-logo.svg";
 // import publication2 from "../../../Assets/Publications/newlogo.svg";
 import publication3 from "../../../Assets/Publications/einpresswire.png";
@@ -40,6 +40,33 @@ const Publications = () => {
 				className="publication-content-upper-container"
 				onClick={() => {
 					handleLink(
+						"https://www.einpresswire.com/article/686097774/prepaire-labs-commits-to-carbon-neutrality"
+					);
+				}}
+			>
+				<div className="publication-image">
+					<img
+						src={windowWidth >= 1256 ? publication5 : publication5}
+						alt="publication-1"
+						className="publication-image-1"
+					/>
+				</div>
+				<div className="publication-image-1">
+					<div className="publication-1-text-container">
+						<p className="publication-press-name">EINPRESSWIRE</p>
+						<p className="publication-press-title">
+							Prepaire Labs today announced a groundbreaking initiative to
+							achieve carbon neutrality.
+						</p>
+						<p className="publication-press-date">February 04, 2024</p>
+					</div>
+				</div>
+			</div>
+
+			{/* <div
+				className="publication-content-upper-container"
+				onClick={() => {
+					handleLink(
 						"https://noah-news.com/us/en/health/2024/01/18/scottish-firm-chemify-collaborates-with-prepaire-labs-to-develop-non-addictive-opioids"
 					);
 				}}
@@ -62,26 +89,26 @@ const Publications = () => {
 						<p className="publication-press-date">January 18, 2024</p>
 					</div>
 				</div>
-			</div>
+			</div> */}
 			<div className="publication-lower-container">
 				<div
 					className="small-publication-container"
 					onClick={() => {
 						handleLink(
-							"https://www.einpresswire.com/shareable-preview/9bicFvh3eOlMv1FEWavuoQ"
+							"https://noah-news.com/us/en/health/2024/01/18/scottish-firm-chemify-collaborates-with-prepaire-labs-to-develop-non-addictive-opioids"
 						);
 					}}
 				>
 					<div className="publication-2-img-container">
-						<img src={publication5} className="img-responsive2" />
+						<img src={publication1} className="img-responsive2" />
 					</div>
 					<div className="publication-2-content-container">
-						<p className="publication-small-press-name">einpresswire</p>
+						<p className="publication-small-press-name">NOAH</p>
 						<p className="publication-small-title">
-							Prepaire Labs today announced a groundbreaking initiative to
-							achieve carbon neutrality.
+							Chemify Partners with Prepaire Labs to Apply Ground-breaking
+							Chemistry AI Robotics.
 						</p>
-						<p className="publication-small-date">February 04, 2024</p>
+						<p className="publication-small-date">January 18, 2024</p>
 					</div>
 				</div>
 				<div
