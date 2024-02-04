@@ -78,8 +78,8 @@ const Publications = () => {
 					<div className="publication-2-content-container">
 						<p className="publication-small-press-name">einpresswire</p>
 						<p className="publication-small-title">
-							Prepaire Labs announced a groundbreaking initiative to achieve
-							carbon neutrality.
+							Prepaire Labs today announced a groundbreaking initiative to
+							achieve carbon neutrality.
 						</p>
 						<p className="publication-small-date">January 04, 2024</p>
 					</div>
