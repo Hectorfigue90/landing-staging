@@ -7,6 +7,7 @@ import publication1 from "../../../Assets/Publications/publication-main-img.svg"
 import publication3 from "../../../Assets/Publications/einpresswire.png";
 import publication4 from "../../../Assets/Publications/ktms.png";
 import publication5 from "../../../Assets/Publications/irena-building.jpeg";
+import publication6 from "../../../Assets/Publications/sequencer.png";
 
 const Publications = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -36,6 +37,33 @@ const Publications = () => {
 					<span className="color-inlineVariation-blue">Press</span>
 				</p>
 			</div>
+
+			<div
+				className="publication-content-upper-container"
+				onClick={() => {
+					handleLink("https://en.mgi-tech.com/news/caseinfo/111/");
+				}}
+			>
+				<div className="publication-image">
+					<img
+						src={publication6}
+						alt="publication-1"
+						className="publication-image-1"
+						style={{ maxHeight: "377px" }}
+					/>
+				</div>
+				<div className="publication-image-1">
+					<div className="publication-1-text-container">
+						<p className="publication-press-name">MGI VIA LINKEDIN</p>
+						<p className="publication-press-title">
+							Prepaire Labs announce a groundbreaking collaboration with MGI hat
+							is set to propel precision medicine into a new era in the Middle
+							East!
+						</p>
+						<p className="publication-press-date">February 05, 2024</p>
+					</div>
+				</div>
+			</div>
 			<div
 				className="publication-content-upper-container"
 				onClick={() => {
@@ -63,33 +91,6 @@ const Publications = () => {
 				</div>
 			</div>
 
-			{/* <div
-				className="publication-content-upper-container"
-				onClick={() => {
-					handleLink(
-						"https://noah-news.com/us/en/health/2024/01/18/scottish-firm-chemify-collaborates-with-prepaire-labs-to-develop-non-addictive-opioids"
-					);
-				}}
-			>
-				<div className="publication-image">
-					<img
-						src={windowWidth >= 1256 ? publication1 : publicationSmall}
-						alt="publication-1"
-						className="publication-image-1"
-					/>
-				</div>
-				<div className="publication-image-1">
-					<div className="publication-1-text-container">
-						<p className="publication-press-name">PREPAIRE LABS</p>
-						<p className="publication-press-title">
-							Chemify Partners with Prepaire Labs to Apply Ground-breaking
-							Chemistry AI Robotics to Radically Accelerate the Discovery of
-							Non-Addictive Opioids
-						</p>
-						<p className="publication-press-date">January 18, 2024</p>
-					</div>
-				</div>
-			</div> */}
 			<div className="publication-lower-container">
 				<div
 					className="small-publication-container"
