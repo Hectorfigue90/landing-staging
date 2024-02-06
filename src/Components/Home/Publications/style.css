@@ -80,9 +80,6 @@
 .publication-content-upper-container:hover .publication-press-title {
   color: #5498ee;
 }
-.publication-content-upper-container:hover .publication-image-1 {
-  transform: scale(1.02);
-}
 
 .publication-image {
   flex-basis: 50%;
@@ -107,9 +104,6 @@
 }
 .small-publication-container:hover .publication-small-title {
   color: #5498ee;
-}
-.small-publication-container:hover .img-responsive {
-  transform: scale(1.02);
 }
 
 .publication-lower-container {
