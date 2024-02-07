@@ -1,0 +1,124 @@
+.biotune-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0px 60px;
+	// gap: 120px;
+	background-image: url('../../../Assets/Biotune/videoframe.png');
+	position: relative;
+	// background-size: 260px 209px;
+    background-repeat: no-repeat;
+	// background-position: top center;
+	background-position-x: 52%;
+    background-position-y: 0%;
+    padding-top: 120px;
+    /* justify-content: space-between; */
+    gap: 202px;
+}
+
+.biotune-image {
+	max-width: 700px;
+	height: auto;
+// 	border-radius: 10.855px;
+// border: 13.026px solid #E5E5E5;
+}
+
+.biotune-logo {
+	width: 106px;
+}
+.biotune-text-container {
+	display: flex;
+	flex-direction: column;
+	width: 672px;
+	gap: 32px;
+}
+.camera-background-img{
+	background-image: url('../../../Assets/Biotune/Headset.png');
+	position: relative;
+	// background-size: 260px 209px;
+    background-repeat: no-repeat;
+	background-position: top center;
+	width: 366px;
+    height: 252px;
+	top: -41px;
+    bottom: 29.972px;
+    left: 46%;
+}
+
+.biotune-logo-wrapper {
+	padding-left: 60px;
+	padding-bottom: 32px;
+	width: 90%;
+	max-width: 1540px;
+
+	display: flex;
+	justify-content: flex-start;
+}
+
+// .biotune-image-box{
+// 	display: flex;
+// // width: 546px;
+// // height: 405.972px;
+// flex-direction: column;
+// align-items: flex-start;
+// gap: 3.795px;
+// flex-shrink: 0;
+// border-radius: 10.855px;
+// border: 13.026px solid #E5E5E5;
+
+// }
+
+@media only screen and (max-width: 1435px) {
+	.biotune-text-container {
+		display: flex;
+		flex-direction: column;
+		width: 45%;
+		gap: 32px;
+	}
+	.biotune-image {
+		width: 47%;
+		height: auto;
+	}
+
+}
+
+@media only screen and (max-width: 1050px) {
+	.biotune-container {
+		padding: 0px 16px;
+	}
+	.biotune-text-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		gap: 32px;
+	}
+
+	.biotune-container {
+		flex-direction: column;
+		padding: 0px 32px;
+		gap: 48px;
+	}
+
+	.biotune-image {
+		width: 100%;
+		object-fit: cover;
+	}
+
+}
+
+@media only screen and (max-width: 370px) {
+	.biotune-container {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.biotune-text-container {
+		button {
+			width: 100%;
+			justify-content: center;
+		}
+	}
+	.biotune-image {
+		height: 175.5;
+		object-fit: cover;
+	}
+}

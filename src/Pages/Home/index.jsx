@@ -4,7 +4,7 @@ import "./style.scss";
 import Apps from "../../Components/Home/Apps";
 import AppStore from "../../Components/Home/AppStore";
 import DrugDiscovery from "../../Components/Home/DrugDiscovery";
-import Biotune from "../../Components/Home/Biotune";
+// import Biotune from "../../Components/Home/Biotune";
 // import ImageReconstruction from "../../Components/Home/ImageReconstruction";
 import TherapyFacilities from "../../Components/Home/TherapyFacilities";
 import Partners from "../../Components/Home/Partners";
@@ -12,6 +12,7 @@ import Partners from "../../Components/Home/Partners";
 import Contact from "../../Components/Home/Contact";
 import Publications from "../../Components/Home/Publications";
 import ToxiFree from "../../Components/Home/ToxiFree";
+import NewBiotune from "../../Components/Home/NewBiotune";
 // import newTag from "../../Assets/discoverBanner/new-tag.svg";
 // import NavBar from "../../Components/Structural/NavBar";
 
@@ -39,7 +40,8 @@ const HomePage = () => {
 					<DrugDiscovery />
 				</div>
 				<div id="biotune" className="biotune-outter-container">
-					<Biotune />
+					{/* <Biotune /> */}
+					<NewBiotune/>
 				</div>
 				{/* <div className="imageR-outter-container">
 					<ImageReconstruction />

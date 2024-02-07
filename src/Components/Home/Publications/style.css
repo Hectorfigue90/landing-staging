@@ -109,13 +109,13 @@
 .publication-lower-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   width: 100%;
   gap: 20px;
 }
 
 .publication-2-img-container {
-  height: 182px;
+  /* height: 182px; */
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -123,9 +123,10 @@
 }
 
 .publication-2-content-container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 10px; */
+  flex:1;
 }
 
 .publication-small-press-name {
@@ -134,6 +135,7 @@
   line-height: 24px;
   color: #5498ee;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .publication-small-title {
@@ -142,6 +144,7 @@
   line-height: 24px;
   letter-spacing: -4%;
   color: #2b2b2b;
+  margin-bottom: 10px;
 }
 
 .publication-small-date {
