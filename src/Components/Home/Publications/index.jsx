@@ -278,11 +278,13 @@
 import React, { useEffect, useState } from "react";
 import "./style.scss";
 import publication1 from "../../../Assets/Publications/publication-main-img.svg";
-import publicationSmall from "../../../Assets/Publications/publication-small-screen.svg";
+// import publicationSmall from "../../../Assets/Publications/publication-small-screen.svg";
 // import publication2 from "../../../Assets/Publications/prepaire-logo.svg";
-import publication2 from "../../../Assets/Publications/newlogo.svg";
+// import publication2 from "../../../Assets/Publications/newlogo.svg";
 import publication3 from "../../../Assets/Publications/einpresswire.png";
 import publication4 from "../../../Assets/Publications/ktms.png";
+import publication5 from "../../../Assets/Publications/irena-building.jpeg";
+import publication6 from "../../../Assets/Publications/sequencer.png";
 
 const Publications = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -312,51 +314,80 @@ const Publications = () => {
 					<span className="color-inlineVariation-blue">Press</span>
 				</p>
 			</div>
+
+			<div
+				className="publication-content-upper-container"
+				onClick={() => {
+					handleLink("https://en.mgi-tech.com/news/caseinfo/111/");
+				}}
+			>
+				<div className="publication-image">
+					<img
+						src={publication6}
+						alt="publication-1"
+						className="publication-image-1"
+						style={{ maxHeight: "377px" }}
+					/>
+				</div>
+				<div className="publication-image-1">
+					<div className="publication-1-text-container">
+						<p className="publication-press-name">MGI VIA LINKEDIN</p>
+						<p className="publication-press-title">
+							Prepaire Labs announce a groundbreaking collaboration with MGI hat
+							is set to propel precision medicine into a new era in the Middle
+							East!
+						</p>
+						<p className="publication-press-date">February 05, 2024</p>
+					</div>
+				</div>
+			</div>
 			<div
 				className="publication-content-upper-container"
 				onClick={() => {
 					handleLink(
-						"https://noah-news.com/us/en/health/2024/01/18/scottish-firm-chemify-collaborates-with-prepaire-labs-to-develop-non-addictive-opioids"
+						"https://www.einpresswire.com/article/686097774/prepaire-labs-commits-to-carbon-neutrality"
 					);
 				}}
 			>
 				<div className="publication-image">
 					<img
-						src={windowWidth >= 1256 ? publication1 : publicationSmall}
+						src={windowWidth >= 1256 ? publication5 : publication5}
 						alt="publication-1"
 						className="publication-image-1"
 					/>
 				</div>
 				<div className="publication-image-1">
 					<div className="publication-1-text-container">
-						<p className="publication-press-name">PREPAIRE LABS</p>
+						<p className="publication-press-name">EINPRESSWIRE</p>
 						<p className="publication-press-title">
-							Chemify Partners with Prepaire Labs to Apply Ground-breaking
-							Chemistry AI Robotics to Radically Accelerate the Discovery of
-							Non-Addictive Opioids
+							Prepaire Labs today announced a groundbreaking initiative to
+							achieve carbon neutrality.
 						</p>
+						<p className="publication-press-date">February 04, 2024</p>
 					</div>
 					<p className="publication-press-date">January 18, 2024</p>
 				</div>
 			</div>
+
 			<div className="publication-lower-container">
 				<div
 					className="small-publication-container"
 					onClick={() => {
 						handleLink(
-							"https://www.einpresswire.com/article/637477160/prepaire-labs-acquires-state-of-the-art-3d-bioprinter-from-cellink-for-new-uae-research-lab"
+							"https://noah-news.com/us/en/health/2024/01/18/scottish-firm-chemify-collaborates-with-prepaire-labs-to-develop-non-addictive-opioids"
 						);
 					}}
 				>
 					<div className="publication-2-img-container">
-						<img src={publication2} className="img-responsive" />
+						<img src={publication1} className="img-responsive2" />
 					</div>
 					<div className="publication-2-content-container">
-						<p className="publication-small-press-name">Kalkine media</p>
+						<p className="publication-small-press-name">NOAH</p>
 						<p className="publication-small-title">
-							Prepaire Labs and Syndesis Announce Strategic Partnership to
-							Transform Global Health Outcomes
+							Chemify Partners with Prepaire Labs to Apply Ground-breaking
+							Chemistry AI Robotics.
 						</p>
+						<p className="publication-small-date">January 18, 2024</p>
 					</div>
 					<p className="publication-small-date">August 14, 2023</p>
 				</div>
