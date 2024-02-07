@@ -9,24 +9,24 @@ import logo6 from "../../../Assets/Partners/cellink_bico_w 1.svg";
 import logo7 from "../../../Assets/Partners/Amazon_Web_Services_Logo - Copy 1.svg";
 // import logo8 from "../../../Assets/Partners/download 1.svg";
 // import logo9 from "../../../Assets/Partners/image 380.svg";
-import logo10 from "../../../Assets/Partners/Capa 2.svg";
+import logo10 from "../../../Assets/Partners/Capa 2.png";
 // import logo11 from "../../../Assets/Partners/image 379.svg";
-import logo12 from "../../../Assets/Partners/MGI-new-logo-1024x455 1.svg";
+import logo12 from "../../../Assets/Partners/MGI-new-logo-1024x455 1.png";
 import logo13 from "../../../Assets/Partners/Group.svg";
 // import logo14 from "../../../Assets/Partners/download (1) 1.svg";
 // import logo15 from "../../../Assets/Partners/image 384.svg";
-import logo16 from "../../../Assets/Partners/image 382.svg";
+import logo16 from "../../../Assets/Partners/image 382 1.png";
 import logo17 from "../../../Assets/Partners/Harvard_University_logo 1.svg";
 import logo18 from "../../../Assets/Partners/Frame 629635.svg";
 import logo19 from "../../../Assets/Partners/logo-TelesisBio-RGB 1.svg";
 import chemifyLogo from "../../../Assets/Partners/chemify_logo.svg";
 // import telsisBio from "../../../Assets/Partners/telesisBio.svg";
-import healthnieers from "../../../Assets/Partners/healthnieers.svg";
-import botspot from "../../../Assets/Partners/botspot.svg";
-import chemspeed from "../../../Assets/Partners/chemspeed.svg";
-import azenta from "../../../Assets/Partners/azenta.svg";
-import temper from "../../../Assets/Partners/tempers.svg";
-import emulate from "../../../Assets/Partners/emulate.svg";
+import healthnieers from "../../../Assets/Partners/healthnieers 1.png";
+import botspot from "../../../Assets/Partners/botspot.png";
+import chemspeed from "../../../Assets/Partners/chemspeed.png";
+import azenta from "../../../Assets/Partners/azenta.png";
+import temper from "../../../Assets/Partners/tempers.png";
+import emulate from "../../../Assets/Partners/emulate.png";
 
 const Partners = () => {
 	const [contHeight, setHeight] = useState("200px");
@@ -44,8 +44,9 @@ const Partners = () => {
 	return (
 		<div className="partners-container">
 			<div className="partners-text-container">
-				<p className="partners-tittle">Our<span className="color-inlineVariation-blue">
-					Partners</span></p>
+				<p className="partners-tittle">
+					Our<span className="color-inlineVariation-blue">Partners</span>
+				</p>
 				<p>
 					Our partners are at the forefront of innovation, driving advancements
 					that transform healthcare.
@@ -66,7 +67,7 @@ const Partners = () => {
 				</div>
 
 				<div className="partners-card">
-					<img src={chemifyLogo} className="partners-logo"></img>
+					<img src={chemifyLogo} className="partners-logo-b"></img>
 				</div>
 
 				<div className="partners-card">
@@ -77,7 +78,7 @@ const Partners = () => {
 					<img src={logo6} className="partners-logo"></img>
 				</div>
 				<div className="partners-card">
-					<img src={logo7} className="partners-logo"></img>
+					<img src={logo7} className="partners-logo-b"></img>
 				</div>
 				<div className="partners-card">
 					<img src={logo13} className="partners-logo"></img>
@@ -103,7 +104,7 @@ const Partners = () => {
 					<img src={logo15} className="partners-logo"></img>
 				</div> */}
 				<div className="partners-card">
-					<img src={logo16} className="partners-logo"></img>
+					<img src={logo16} className="partners-logo-b"></img>
 				</div>
 
 				<div className="partners-card">
@@ -135,7 +136,6 @@ const Partners = () => {
 				<div className="partners-card">
 					<img src={emulate} className="partners-logo"></img>
 				</div>
-
 			</div>
 			<div className="partner-button-wrapper">
 				<button className="button-secondary" onClick={showAll}>

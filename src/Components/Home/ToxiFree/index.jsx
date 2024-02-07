@@ -1,8 +1,9 @@
 import React from "react";
-// import { useNavigate } from "react-router-dom";
+//
 import { Link } from "react-router-dom";
 import "./style.scss";
 import toxifreeIcon from "../../../Assets/discoverBanner/toxifree-icon.svg";
+
 // import pillIcon from "../../../Assets/discoverBanner/pill.png";
 
 const ToxiFree = () => {
@@ -34,15 +35,7 @@ const ToxiFree = () => {
 					precise customization of peptides, promising tailored therapies and
 					vaccines.
 				</p>
-				{/* <button
-					className="button-primary"
-					type="button"
-					onClick={() =>
-						navigate("https://app.prepaire.com:5067/#/marketplace")
-					}
-				>
-					Check it out now!
-				</button> */}
+
 				<Link
 					className="button-primary"
 					to="https://app.prepaire.com:5067/#/marketplace"
