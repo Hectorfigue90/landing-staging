@@ -30,15 +30,18 @@ import emulate from "../../../Assets/Partners/emulate.png";
 
 const Partners = () => {
 	const [contHeight, setHeight] = useState("200px");
+	const [contPadding, setPadding] = useState("0px");
 	const [buttonText, setButtonText] = useState("Show All (14)");
 
 	function showAll() {
 		if (buttonText === "Show All (14)") {
 			setHeight("fit-content");
 			setButtonText("Collapse");
+			setPadding("7px");
 		} else {
 			setHeight("200px");
 			setButtonText("Show All (14)");
+			setPadding("0px");
 		}
 	}
 	return (
@@ -52,7 +55,10 @@ const Partners = () => {
 					that transform healthcare.
 				</p>
 			</div>
-			<div className="partnes-card-conatainer" style={{ height: contHeight }}>
+			<div
+				className="partnes-card-conatainer"
+				style={{ height: contHeight, paddingBottom: contPadding }}
+			>
 				<div className="partners-card">
 					<img src={logo10} className="partners-logo"></img>
 				</div>

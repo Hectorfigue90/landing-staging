@@ -17,7 +17,7 @@ const Join = () => {
 			<div className="mobile-out">
 				<Link
 					className="button-primary"
-					to="https://app.prepaire.com:5067/#/signup"
+					to="https://app.prepaire.com:5067/#/wishlist"
 					// to="https://prepaire-staging.vercel.app/#/signup"
 				>
 					Join us now

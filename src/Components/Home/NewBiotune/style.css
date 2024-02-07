@@ -1,0 +1,79 @@
+.biotune-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 60px;
+  gap: 120px;
+}
+
+.biotune-image {
+  max-width: 700px;
+  height: auto;
+}
+
+.biotune-logo {
+  width: 106px;
+}
+
+.biotune-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 672px;
+  gap: 32px;
+}
+
+.biotune-logo-wrapper {
+  padding-left: 60px;
+  padding-bottom: 32px;
+  width: 90%;
+  max-width: 1540px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1435px) {
+  .biotune-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 32px;
+  }
+  .biotune-image {
+    width: 47%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .biotune-container {
+    padding: 0px 16px;
+  }
+  .biotune-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+  }
+  .biotune-container {
+    flex-direction: column;
+    padding: 0px 32px;
+    gap: 48px;
+  }
+  .biotune-image {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .biotune-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .biotune-text-container button {
+    width: 100%;
+    justify-content: center;
+  }
+  .biotune-image {
+    height: 175.5;
+    object-fit: cover;
+  }
+}/*# sourceMappingURL=style.css.map */
