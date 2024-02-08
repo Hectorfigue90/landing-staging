@@ -141,6 +141,19 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+     .camera-background-img{
+		left: 0%;
+	 }
+	 .videoframe-img{
+		transform: translateX(-41%);
+		top: -12%;
+		.img-css{
+			width: 200px;
+		}
+	 }
+}
+
 @media only screen and (max-width: 370px) {
   .biotune-container {
     padding-left: 16px;
