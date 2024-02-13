@@ -14,18 +14,18 @@ const Biotune = () => {
 				{/* <img className="biotune-logo" alt="biotune logo " src={BiotuneLogo} /> */}
 				<div className="hero-title-wrapper">
 					<h2>
-						Unleash the Potential of Your DNA with Biotune Clinic&apos;s
-						Personalized Wellness Approach
+            Unleash the Potential of Your DNA with Biotune Clinic&apos;s
+            Personalized Wellness Approach
 						<span className="color-inlineVariation-blue">
 							{" "}
-							Therapy Facilities
+              Therapy Facilities
 						</span>
 					</h2>
 				</div>
 
 				<p>
-					Your personal sanctuary for cutting-edge wellness and life-enhancing
-					therapies. We bring the future of regenerative medicine to Dubai.
+          Your personal sanctuary for cutting-edge wellness and life-enhancing
+          therapies. We bring the future of regenerative medicine to Dubai.
 				</p>
 				<button
 					onClick={() => {
@@ -33,7 +33,7 @@ const Biotune = () => {
 					}}
 					className="button-primary"
 				>
-					Learn more
+          Learn more
 				</button>
 			</div>
 

@@ -1,5 +1,5 @@
-
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./style.scss";
 import publication1 from "../../../Assets/Publications/publication-main-img.svg";
 // import publicationSmall from "../../../Assets/Publications/publication-small-screen.svg";
@@ -9,13 +9,14 @@ import publication3 from "../../../Assets/Publications/einpresswire.png";
 import publication4 from "../../../Assets/Publications/ktms.png";
 import publication5 from "../../../Assets/Publications/irena-building.jpeg";
 import publication6 from "../../../Assets/Publications/sequencer.png";
+// import EinpresswireImg from "../../../Assets/Publications/einpresswiresmall.png";
 
 const Publications = () => {
-	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+	// const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
 	useEffect(() => {
 		const handleResize = () => {
-			setWindowWidth(window.innerWidth);
+			// setWindowWidth(window.innerWidth);
 		};
 
 		window.addEventListener("resize", handleResize);
@@ -65,7 +66,7 @@ const Publications = () => {
 					</div>
 				</div>
 			</div>
-			<div
+			{/* <div
 				className="publication-content-upper-container"
 				onClick={() => {
 					handleLink(
@@ -90,11 +91,36 @@ const Publications = () => {
 						
 						<p className="publication-press-date">January 18, 2024</p>
 					</div>
-					{/* <p className="publication-press-date">January 18, 2024</p> */}
+					{/* <p className="publication-press-date">January 18, 2024</p> }
 				</div>
-			</div>
+			</div> */}
 
 			<div className="publication-lower-container">
+				<div
+					className="small-publication-container"
+					onClick={() => {
+						handleLink(
+							"https://noah-news.com/us/en/health/2024/01/18/scottish-firm-chemify-collaborates-with-prepaire-labs-to-develop-non-addictive-opioids"
+						);
+					}}
+				>
+					<div className="publication-2-img-container">
+						<img
+							src={publication5}
+							className="img-responsive2"
+							style={{ height: "135px", width: "100%" }}
+						/>
+					</div>
+					<div className="publication-2-content-container">
+						<p className="publication-small-press-name">einpresswire</p>
+						<p className="publication-small-title">
+							Prepaire Labs today announced a groundbreaking initiative to
+							achieve carbon neutrality.
+						</p>
+						{/* <p className="publication-small-date">January 18, 2024</p> */}
+					</div>
+					<p className="publication-small-date">August 14, 2023</p>
+				</div>
 				<div
 					className="small-publication-container"
 					onClick={() => {
@@ -159,11 +185,9 @@ const Publications = () => {
 					</div>
 					<p className="publication-small-date">June 12, 2023</p>
 				</div>
-				
 			</div>
 		</div>
 	);
 };
 
 export default Publications;
-

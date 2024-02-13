@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-
 import React from "react";
 import "./style.scss";
 import "../../../Scss/main.scss";
@@ -17,17 +15,17 @@ const NewBiotune = () => {
 				{/* <img className="biotune-logo" alt="biotune logo " src={BiotuneLogo} /> */}
 				<div className="hero-title-wrapper">
 					<h2>
-						Designing for the Future of
+            Designing for the Future of
 						<span className="color-inlineVariation-blue">
 							{" "}
-							Personalized Therapy
+              Personalized Therapy
 						</span>
 					</h2>
 				</div>
 
 				<p>
-					Your personal sanctuary for cutting-edge wellness and life-enhancing
-					therapies. We bring your digital twin to life
+          Your personal sanctuary for cutting-edge wellness and life-enhancing
+          therapies. We bring your digital twin to life
 				</p>
 				<button
 					onClick={() => {
@@ -35,8 +33,13 @@ const NewBiotune = () => {
 					}}
 					className="button-primary"
 				>
-					Learn more
+          Learn more
 				</button>
+				<img
+					className="biotune-image-mobile"
+					alt="biotune lab image"
+					src={BiotuneLab}
+				/>
 				<div className="camera-background-img" />
 			</div>
 
