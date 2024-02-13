@@ -4,6 +4,7 @@ import "../../../Scss/main.scss";
 import View from "../../../Assets/Icons/eye.svg";
 import { Link } from "react-router-dom";
 // import Video from "../../../Assets/Hero/HeroImage_placeHolder.png";
+import LeftBar from "../../../Assets/Hero/Navbar.png";
 import { useNavigate } from "react-router-dom";
 const AppStore = () => {
 	const navigate = useNavigate();
@@ -52,6 +53,7 @@ const AppStore = () => {
 				</div>
 			</div>
 			<div className="appStore-mockup-container">
+				<img src={LeftBar} alt="leftbar"/>
 				<div className="appStore-mockup" />
 			</div>
 		</div>
