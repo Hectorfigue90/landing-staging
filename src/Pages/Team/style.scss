@@ -1,4 +1,4 @@
-.team-container {
+.team-container-prepaire {
   display: flex;
   flex-direction: column;
   padding-bottom: 80px;
@@ -6,8 +6,13 @@
   align-items: center;
   margin: auto;
 }
-.about-prepairw-outter-conatiner{
-    width: 100%;
-    max-width: 1800px;
-    overflow: hidden;
+.about-prepairw-outter-conatiner {
+  width: 100%;
+  max-width: 1800px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 425px) {
+  .team-container-prepaire {
+    padding: 0;
+  }
 }
