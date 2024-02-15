@@ -96,6 +96,15 @@ const NavBar = () => {
 						</a>
 						<a
 							onClick={() => {
+								navigate("/hiring");
+								// Openmenu();
+							}}
+						>
+							{" "}
+							Hiring
+						</a>
+						<a
+							onClick={() => {
 								navigate("/mission");
 								// Openmenu();
 							}}
