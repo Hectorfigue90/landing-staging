@@ -93,6 +93,7 @@
       //   flex: 1 0 0;
       border-radius: 8px;
       background: #fff;
+      width: 33%;
       .photo {
         display: flex;
         justify-content: flex-end;
@@ -100,10 +101,13 @@
         // align-self: stretch;
         border-radius: 8px;
         background: var(--Prepaire-Blue, #5498ee);
-        // img {
-        //   width: 333px;
-        //   height: 440px;
-        // }
+        width: 100%;
+        img {
+          // width: 260px;
+          // height: 250px;
+          width: 100%;
+          border-radius: 8px;
+        }
       }
       .name {
         color: #2e2e2e;
@@ -131,7 +135,14 @@
   }
 }
 
-@media only screen and (max-width: 1450px) {
+// @media only screen and (max-width: 1450px) {
+//   .photo-section-item {
+//     justify-content: center;
+//     flex-wrap: wrap;
+//   }
+// }
+
+@media only screen and (max-width: 1050px) {
   .photo-section-item {
     justify-content: center;
     flex-wrap: wrap;
@@ -141,5 +152,13 @@
 @media only screen and (max-width: 426px) {
   .vertical-section {
     flex-direction: column;
+  }
+  .photo-section {
+    .photo-section-item {
+      flex-direction: column;
+      .photo-box {
+        width: 100%;
+      }
+    }
   }
 }

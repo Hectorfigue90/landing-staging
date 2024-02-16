@@ -5,6 +5,7 @@ import "./style.scss";
 // import { useNavigate } from "react-router-dom";
 import PrepaireLogo from "../../../Assets/Team/prepire-logo.svg";
 import CarlProfile from "../../../Assets/Team/ProfilePicture/Carl Profile 1.png";
+import SteveProfile from "../../../Assets/Team/ProfilePicture/Steve Carroll 1.png";
 import VicentProfile from "../../../Assets/Team/ProfilePicture/Vicent good 1.png";
 import BrentProfile from "../../../Assets/Team/ProfilePicture/BrentSuit 1.png";
 import SergeProfile from "../../../Assets/Team/ProfilePicture/Serge new 1.png";
@@ -91,7 +92,7 @@ const Prepaireteam = () => {
 					</div>
 					<div className="photo-box">
 						<div className="photo">
-							<img src={CarlProfile} alt="carl" />
+							<img src={SteveProfile} alt="carl" />
 						</div>
 						<div className="name">Steve Carroll</div>
 						<div className="designation">Chief Executive Officer</div>
