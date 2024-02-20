@@ -1,22 +1,22 @@
 .team-container-prepaire {
-  // display: flex;
-  // flex-direction: column;
-  // padding-bottom: 80px;
-  // justify-content: center;
-  // align-items: center;
-  // margin: auto;
-  display: flex;
-  // width: 1920px;
-  flex-direction: column;
-  align-items: flex-start;
+	// display: flex;
+	// flex-direction: column;
+	// padding-bottom: 80px;
+	justify-content: center;
+	// align-items: center;
+	// margin: auto;
+	display: flex;
+	// width: 1920px;
+	flex-direction: column;
+	align-items: center;
 }
 .about-prepairw-outter-conatiner {
-  width: 100%;
-  max-width: 1800px;
-  overflow: hidden;
+	width: 100%;
+	max-width: 1800px;
+	overflow: hidden;
 }
 @media only screen and (max-width: 425px) {
-  .team-container-prepaire {
-    padding: 0;
-  }
+	.team-container-prepaire {
+		padding: 0;
+	}
 }
