@@ -11,10 +11,21 @@
 	overflow: hidden;
 	border-radius: 23px;
 	border: 12px solid rgba(0, 0, 0, 0.1);
+    
+	flex: 1; /* Make the video wrapper flexible */
+	position: relative; /* Add position relative to control the position of video */
+	// padding-top: 56.25%; /* This percentage gives you a 16:9 aspect ratio */
 }
 
 .therapy-video {
-	height: 370px;
+	// height: 370px;
+
+	position: absolute; /* Absolute position to fit it in the wrapper */
+	top: 0;
+	left: 0;
+	width: 100%; /* Set width to 100% of the parent */
+	height: 100%; /* Set height to 100% of the parent */
+	object-fit: cover; /* Cover to ensure the video covers the whole area */
 }
 
 .therapy-text-container {
@@ -45,6 +56,7 @@
 
 	.therapy-video-wrapper {
 		width: 97%;
+		padding-top: 56.25%; /* Keep the aspect ratio */
 	}
 
 	.therapy-video {
@@ -66,10 +78,11 @@
 	}
 
 	.therapy-video-wrapper {
-		height: 280px;
-		overflow: hidden;
+		// height: 280px;
+		// overflow: hidden;
 		border-radius: 10px;
 		border: 8px solid rgba(0, 0, 0, 0.1);
+		padding-top: 56.25%; /* Keep the aspect ratio */
 	}
 
 	.therapy-video {
