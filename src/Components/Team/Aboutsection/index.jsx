@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./style.scss";
 // import { useEffect } from "react";
 // import { useLocation } from "react-router-dom";
@@ -6,6 +7,7 @@ import "./style.scss";
 import GlobalIcon from "../../../Assets/Team/global-icon.svg";
 
 const Aboutprepaire = () => {
+	const navigate = useNavigate();
 	return (
 		<div className="About-prepaire-container">
 			<div className="preapire_about_image">
@@ -46,7 +48,13 @@ const Aboutprepaire = () => {
 						</div>
 					</div>
 				</div>
-				<button className="open_role">
+				<button
+					className="open_role"
+					onClick={() => {
+						navigate("/hiring");
+						// Openmenu();
+					}}
+				>
 					<div>View open roles</div>
 				</button>
 			</div>

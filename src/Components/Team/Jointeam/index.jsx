@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./style.scss";
 // import { useEffect } from "react";
 // import { useLocation } from "react-router-dom";
@@ -6,6 +7,7 @@ import "./style.scss";
 import ShutterStock from "../../../Assets/Team/shutterstock.png";
 
 const Jointeam = () => {
+	const navigate = useNavigate();
 	return (
 		<div className="join-prepaire-container">
 			<div className="join-inner-conatiner">
@@ -22,7 +24,13 @@ const Jointeam = () => {
               consequat. Duis autem vel eum iriure{" "}
 						</div>
 					</div>
-					<button type="button" className="open-role-btn">
+					<button
+						type="button"
+						className="open-role-btn"
+						onClick={() => {
+							navigate("/hiring");
+						}}
+					>
 						<div>View open roles</div>
 					</button>
 				</div>

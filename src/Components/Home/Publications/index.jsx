@@ -2,11 +2,15 @@
 import React, { useEffect } from "react";
 import "./style.scss";
 import publication1 from "../../../Assets/Publications/publication-main-img.svg";
+// import chemifyPng from "../../../Assets/Publications/chemify2.png";
+
 // import publicationSmall from "../../../Assets/Publications/publication-small-screen.svg";
 // import publication2 from "../../../Assets/Publications/prepaire-logo.svg";
 // import publication2 from "../../../Assets/Publications/newlogo.svg";
 import publication3 from "../../../Assets/Publications/einpresswire.png";
+// import EinpresswirePng from "../../../Assets/Publications/einpres2.png";
 import publication4 from "../../../Assets/Publications/ktms.png";
+// import cyclidePng from "../../../Assets/Publications/cycldine.png";
 import publication5 from "../../../Assets/Publications/irena-building.jpeg";
 import publication6 from "../../../Assets/Publications/sequencer.png";
 // import EinpresswireImg from "../../../Assets/Publications/einpresswiresmall.png";
@@ -35,7 +39,7 @@ const Publications = () => {
 		<div className="publication-container">
 			<div className="publication-text-container">
 				<p className="publication-tittle">
-					Publications&nbsp;&
+          Publications&nbsp;&
 					<span className="color-inlineVariation-blue">Press</span>
 				</p>
 			</div>
@@ -58,9 +62,9 @@ const Publications = () => {
 					<div className="publication-1-text-container">
 						<p className="publication-press-name">MGI VIA LINKEDIN</p>
 						<p className="publication-press-title">
-							Prepaire Labs announce a groundbreaking collaboration with MGI hat
-							is set to propel precision medicine into a new era in the Middle
-							East!
+              Prepaire Labs announce a groundbreaking collaboration with MGI hat
+              is set to propel precision medicine into a new era in the Middle
+              East!
 						</p>
 						<p className="publication-press-date">February 05, 2024</p>
 					</div>
@@ -108,14 +112,14 @@ const Publications = () => {
 						<img
 							src={publication5}
 							className="img-responsive2"
-							style={{ height: "135px", width: "100%" }}
+							// style={{ height: "135px", width: "100%" }}
 						/>
 					</div>
 					<div className="publication-2-content-container">
 						<p className="publication-small-press-name">einpresswire</p>
 						<p className="publication-small-title">
-							Prepaire Labs today announced a groundbreaking initiative to
-							achieve carbon neutrality.
+              Prepaire Labs today announced a groundbreaking initiative to
+              achieve carbon neutrality.
 						</p>
 						{/* <p className="publication-small-date">January 18, 2024</p> */}
 					</div>
@@ -131,12 +135,13 @@ const Publications = () => {
 				>
 					<div className="publication-2-img-container">
 						<img src={publication1} className="img-responsive2" />
+						{/* <img src={chemifyPng} className="img-responsive2" /> */}
 					</div>
 					<div className="publication-2-content-container">
 						<p className="publication-small-press-name">NOAH</p>
 						<p className="publication-small-title">
-							Chemify Partners with Prepaire Labs to Apply Ground-breaking
-							Chemistry AI Robotics.
+              Chemify Partners with Prepaire Labs to Apply Ground-breaking
+              Chemistry AI Robotics.
 						</p>
 						{/* <p className="publication-small-date">January 18, 2024</p> */}
 					</div>
@@ -152,12 +157,13 @@ const Publications = () => {
 				>
 					<div className="publication-2-img-container">
 						<img src={publication3} className="img-responsive" />
+						{/* <img src={EinpresswirePng} className="img-responsive2" /> */}
 					</div>
 					<div className="publication-2-content-container">
 						<p className="publication-small-press-name">einpresswire</p>
 						<p className="publication-small-title">
-							Prepaire Labs Acquires State-of-the-Art 3D Bioprinter from CELLINK
-							for New UAE Research Lab
+              Prepaire Labs Acquires State-of-the-Art 3D Bioprinter from CELLINK
+              for New UAE Research Lab
 						</p>
 					</div>
 					<p className="publication-small-date">June 05, 2023</p>
@@ -173,14 +179,16 @@ const Publications = () => {
 					<div className="publication-2-img-container">
 						<img
 							src={publication4}
-							className="img-responsive"
-							style={{ height: "100%" }}
+							//   src={cyclidePng}
+							//   className="img-responsive"
+							className="img-responsive2"
+							//   style={{ height: "100%" }}
 						/>
 					</div>
 					<div className="publication-2-content-container">
 						<p className="publication-small-press-name">KTMS</p>
 						<p className="publication-small-title">
-							Prepaire Labs™ Receives Two Patents for New Anti-Viral Drug
+              Prepaire Labs™ Receives Two Patents for New Anti-Viral Drug
 						</p>
 					</div>
 					<p className="publication-small-date">June 12, 2023</p>
