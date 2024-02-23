@@ -85,7 +85,7 @@ const NavBar = () => {
 							{" "}
 							Developers
 						</a>
-						<a
+						{/* <a
 							onClick={() => {
 								navigate("/team");
 								// Openmenu();
@@ -93,8 +93,8 @@ const NavBar = () => {
 						>
 							{" "}
 							Team
-						</a>
-						<a
+						</a> */}
+						{/* <a
 							onClick={() => {
 								navigate("/hiring");
 								// Openmenu();
@@ -102,7 +102,7 @@ const NavBar = () => {
 						>
 							{" "}
 							Hiring
-						</a>
+						</a> */}
 						<a
 							onClick={() => {
 								navigate("/mission");
