@@ -117,7 +117,7 @@ const NavBar = () => {
 								// Openmenu();
 							}}
 						>
-							Biotune
+							GenetiQ
 						</a>
 						<a
 							onClick={() => {
