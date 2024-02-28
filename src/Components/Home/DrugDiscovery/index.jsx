@@ -26,7 +26,7 @@ const DrugDiscovery = () => {
 							<div className="drugDiscovery-p-wrapper">
 								<p>
 									Utilizing advanced machine learning algorithms, HAiLO tailors
-									its drug interaction analyses to individual patient profiles,
+									its drug interaction analysis to individual patient profiles,
 									helping you zero in on the most effective and safest treatment
 									options
 								</p>
@@ -40,8 +40,8 @@ const DrugDiscovery = () => {
 							<div className="drugDiscovery-p-wrapper">
 								<p>
 									With an evergrowing database that covers thousands of drugs,
-									nutrients, and herbal interactions, HAiLO provides an
-									allencompassing look at potential synergies and conflicts to
+									nutrients, and herbal interactions, HAiLO provides an all
+									encompassing look at potential synergies and conflicts to
 									inform your decisions.
 								</p>
 							</div>
@@ -50,7 +50,7 @@ const DrugDiscovery = () => {
 					<div className="drugDiscovery-list-item">
 						<img src={Icon} className="drugDiscovery-list-icon "></img>
 						<div className="drugDiscovery-list-text">
-							<h3>AIDriven Insights</h3>
+							<h3>AI Driven Insights</h3>
 							<div className="drugDiscovery-p-wrapper">
 								<p>
 									HAiLO leverages state of the art artificial intelligence

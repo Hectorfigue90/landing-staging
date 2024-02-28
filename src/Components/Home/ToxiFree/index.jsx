@@ -23,7 +23,7 @@ const ToxiFree = () => {
 				<div className="banner-heading">
 					<div className="logo-text">
 						<img src={toxifreeIcon} alt="toxifree" />
-						<h2>Toxifree&trade;</h2>
+						<h2>Peptomatics&trade;</h2>
 					</div>
 					<h2> The app to combat</h2>
 					<h2 className="blue">drug addiction</h2>

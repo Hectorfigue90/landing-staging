@@ -9,7 +9,7 @@ const Hero = () => {
 			<div className="heroDev-text-container">
 				<h3>Become a prepaire developer</h3>
 				<h1>
-					Develop with Purpose: Bring Your BioMed Apps to the
+					Develop with Purpose: Bring Your Bio Med Apps to the
 					<span className="color-inlineVariation-blue">Prepaire App Store</span>
 				</h1>
 
