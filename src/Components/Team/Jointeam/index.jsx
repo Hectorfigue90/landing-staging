@@ -12,14 +12,16 @@ const Jointeam = () => {
 				<div className="join-team-text-box">
 					<div className="first-text_join_team">
 						<div className="do_you-join">
-              Do you want to <span>join the team? </span>{" "}
+							Do you want to <span>join the team? </span>{" "}
 						</div>
 						<div>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure{" "}
+							Do you share our passion for transforming healthcare? Are you a
+							visionary, a problem-solver, or an innovator at heart? If you
+							thrive in a dynamic environment where your work helps shape a
+							healthier future, then Prepaire Labs might just be your next great
+							adventure. Our teams are multidisciplinary by nature and we are
+							always willing to share our knowledge! Join our team and play a
+							pivotal role in changing the future of medicine.
 						</div>
 					</div>
 					<button type="button" className="open-role-btn">

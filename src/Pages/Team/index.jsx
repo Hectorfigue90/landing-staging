@@ -8,6 +8,7 @@ import Jointeam from "../../Components/Team/Jointeam";
 import BannerComponent from "../../Components/Team/Banner";
 import { DataValuesComponet } from "../../Components/Team/Datavalue";
 import OurValuesComponent from "../../Components/Team/values";
+import PrepaireAdvisors from "../../Components/Team/Advisors";
 // import { useNavigate } from "react-router-dom";
 
 const Team = () => {
@@ -28,11 +29,15 @@ const Team = () => {
 			<div className="about-prepairw-outter-conatiner">
 				<DataValuesComponet />
 			</div>
-			<div className="about-prepairw-outter-conatiner">
-				<OurValuesComponent />
-			</div>
+
 			<div className="about-prepairw-outter-conatiner">
 				<Aboutprepaire />
+			</div>
+			<div className="about-prepairw-outter-conatiner">
+				<PrepaireAdvisors />
+			</div>
+			<div className="about-prepairw-outter-conatiner">
+				<OurValuesComponent />
 			</div>
 			<div className="about-prepairw-outter-conatiner">
 				<Prepaireteam />
