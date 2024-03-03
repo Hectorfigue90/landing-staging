@@ -14,13 +14,13 @@ export const DataValuesComponet = () => {
 					<p> Apps </p>
 				</div>
 				<div className="dataalues-lists">
-					<h1>40+</h1>
+					<h1>30+</h1>
 					<p> Talanted team members </p>
 				</div>
-				<div className="dataalues-lists">
+				{/* <div className="dataalues-lists">
 					<h1>$100M</h1>
 					<p> In Founding </p>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

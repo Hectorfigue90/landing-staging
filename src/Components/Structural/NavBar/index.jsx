@@ -85,7 +85,7 @@ const NavBar = () => {
 							{" "}
 							Developers
 						</a>
-						{/* <a
+						<a
 							onClick={() => {
 								navigate("/team");
 								// Openmenu();
@@ -93,7 +93,7 @@ const NavBar = () => {
 						>
 							{" "}
 							Team
-						</a> */}
+						</a>
 						{/* <a
 							onClick={() => {
 								navigate("/hiring");
@@ -117,7 +117,7 @@ const NavBar = () => {
 								// Openmenu();
 							}}
 						>
-							Biotune
+							GenetiQ
 						</a>
 						<a
 							onClick={() => {

@@ -157,7 +157,7 @@ const Publications = () => {
 						<p className="publication-small-press-name">einpresswire</p>
 						<p className="publication-small-title">
 							Prepaire Labs Acquires State-of-the-Art 3D Bioprinter from CELLINK
-							for New UAE Research Lab
+							for New UAE Lab
 						</p>
 					</div>
 					<p className="publication-small-date">June 05, 2023</p>
