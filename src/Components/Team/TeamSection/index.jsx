@@ -35,6 +35,8 @@ import aa from "../../../Assets/Team/ProfilePicture/Frame 2085660924-26.png";
 import bb from "../../../Assets/Team/ProfilePicture/Frame 2085660924-27.png";
 import cc from "../../../Assets/Team/ProfilePicture/Frame 2085660924-28.png";
 import dd from "../../../Assets/Team/ProfilePicture/Frame 2085660924-29.png";
+import ee from "../../../Assets/Team/ProfilePicture/Frame 2085660924-30.png";
+import ff from "../../../Assets/Team/ProfilePicture/Frame 2085660924-31.png";
 
 const Prepaireteam = () => {
 	// const navigate = useNavigate();
@@ -46,7 +48,7 @@ const Prepaireteam = () => {
 			setButton("Collapse");
 			setHeigh("100%");
 		} else {
-			setButton("Collapse");
+			setButton("View All");
 			setHeigh("calc((100vw) * 1.1)");
 		}
 	}
@@ -111,6 +113,13 @@ const Prepaireteam = () => {
 						<div className="designation">
 							Business Development Prepaire Shield
 						</div>
+					</div>
+					<div className="photo-box">
+						<div className="photo">
+							<img src={ff} alt="carl" />
+						</div>
+						<div className="name1">Sarah Cronin</div>
+						<div className="designation">Project Manager</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
@@ -252,6 +261,15 @@ const Prepaireteam = () => {
 						</div>
 						<div className="name1">Muhammad Saqlain Abbas</div>
 						<div className="designation">Front-End Developer</div>
+					</div>
+					<div className="photo-box">
+						<div className="photo">
+							<img src={ee} alt="carl" />
+						</div>
+						<div className="name1">Lawrence Sevilla</div>
+						<div className="designation">
+							Laboratory Information System Architect
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
