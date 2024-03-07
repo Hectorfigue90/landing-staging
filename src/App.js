@@ -8,7 +8,7 @@ import Developers from "./Pages/Developers";
 import Mission from "./Pages/Mission";
 import Biotune from "./Pages/Biotune";
 import CrowdfundingPage from "./Pages/CrowdFunding";
-import Team from "./Pages/Team";
+// import Team from "./Pages/Team";
 import Hiring from "./Pages/Hiring";
 function App() {
 	return (
@@ -17,8 +17,8 @@ function App() {
 			<Routes>
 				<Route exact path="/" element={<HomePage />} />
 				<Route exact path="/developers" element={<Developers />} />
-				<Route exact path="/team" element={<Team />} />
-				<Route exact path="/hiring" element={<Hiring/>} />
+				{/* <Route exact path="/team" element={<Team />} /> */}
+				<Route exact path="/hiring" element={<Hiring />} />
 				<Route exact path="/mission" element={<Mission />} />
 				<Route exact path="/biotune" element={<Biotune />} />
 				<Route exact path="/crowdfunding" element={<CrowdfundingPage />} />
