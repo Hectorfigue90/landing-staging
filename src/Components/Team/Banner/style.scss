@@ -15,9 +15,15 @@
   // align-items: flex-start;
   gap: 10px;
   align-self: stretch;
+  justify-content: space-between;
   align-items: center;
   padding: 135px 60px;
+  padding-bottom: 135px;
   position: relative;
+  background-image: url("../../../Assets/Team/hero_banner.png");
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position-x: 110%;
 }
 
 .banner-content {
@@ -85,23 +91,13 @@
   box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.06);
 
   color: #fff;
-  cursor: pointer;
-  div{
-    color: var(--White, #fff);
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-  }
 }
 
 .banner-imageConatiner {
   width: 640px;
   height: 586px;
   flex-shrink: 0;
-  background: url("../../../Assets/Team/Mask group.svg");
+
   background-repeat: no-repeat;
   width: 50%;
   // lightgray 50% / cover no-repeat;
@@ -236,6 +232,11 @@
     line-height: 24px; /* 150% */
     letter-spacing: -0.16px;
   }
+}
+
+.heroTeam-image {
+  width: 100%;
+  padding-bottom: -400px;
 }
 
 @media only screen and (max-width: 1450px) {

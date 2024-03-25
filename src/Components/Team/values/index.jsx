@@ -8,7 +8,7 @@ const OurValuesComponent = () => {
 	return (
 		<div className="ourvalues-conatiner-main">
 			<h1>
-        Our <span>Values</span>
+				Our <span>Values</span>
 			</h1>
 			<div className="ourvalues-box-container">
 				<div className="box-container-child">
@@ -17,13 +17,13 @@ const OurValuesComponent = () => {
 					</div>
 
 					<div className="box-text-conatiner">
-						<h1> Custoumer List</h1>
+						<h1> Customer First</h1>
 						<p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. D
+							We understand that your health journey is deeply personal. At
+							Prepaire Labs, we prioritize your needs, concerns, and goals above
+							all else. Our focus is on building long-lasting relationships
+							founded on trust, transparency, and a relentless drive to help you
+							achieve your best possible health outcomes.
 						</p>
 					</div>
 				</div>
@@ -35,11 +35,12 @@ const OurValuesComponent = () => {
 					<div className="box-text-conatiner">
 						<h1> Diversity</h1>
 						<p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat.
+							A multifaceted approach to healthcare demands a diversity of
+							perspectives. Our team fosters a culture of inclusion, where
+							individuals from various backgrounds, experiences, and skillsets
+							are celebrated. This rich tapestry of talent empowers us to
+							innovate, push boundaries, and develop solutions that truly cater
+							to the diverse needs of our customers.
 						</p>
 					</div>
 				</div>
@@ -51,11 +52,11 @@ const OurValuesComponent = () => {
 					<div className="box-text-conatiner">
 						<h1>Excellence</h1>
 						<p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. D
+							We set the bar high. Prepaire Labs is committed to delivering
+							exceptional care fueled by unwavering dedication to research,
+							precision, and continuous improvement. Our pursuit of excellence
+							never ends, ensuring you always have access to the most advanced,
+							personalized healthcare solutions available.
 						</p>
 					</div>
 				</div>

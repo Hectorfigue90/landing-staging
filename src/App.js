@@ -18,7 +18,7 @@ function App() {
 				<Route exact path="/" element={<HomePage />} />
 				<Route exact path="/developers" element={<Developers />} />
 				<Route exact path="/team" element={<Team />} />
-				<Route exact path="/hiring" element={<Hiring/>} />
+				<Route exact path="/hiring" element={<Hiring />} />
 				<Route exact path="/mission" element={<Mission />} />
 				<Route exact path="/biotune" element={<Biotune />} />
 				<Route exact path="/crowdfunding" element={<CrowdfundingPage />} />
