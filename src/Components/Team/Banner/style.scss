@@ -20,16 +20,40 @@
   padding: 135px 60px;
   padding-bottom: 135px;
   position: relative;
-  background-image: url("../../../Assets/Team/hero_banner.png");
-  background-size: 55%;
-  background-repeat: no-repeat;
-  background-position-x: 110%;
+  //   background-image: url("../../../Assets/Team/hero_banner.png");
+  //   background-image: url("../../../Assets/Team/Researcher.svg");
+  //   background-size: 55%;
+  //   background-repeat: no-repeat;
+  //   background-position-x: 110%;
+
+  .banner-content-right {
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #fff;
+
+    // width: 50%;
+    width: fit-content;
+
+    z-index: -1;
+
+    .heroTeam-image {
+      height: 100%;
+    }
+  }
 }
 
 .banner-content {
   display: flex;
   // width: 619px;
-  width: 46%;
+  //   width: 46%;
+  width: 50%;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
@@ -68,15 +92,16 @@
     font-weight: 700;
     line-height: 72px;
     letter-spacing: -3.2px;
-  }
-  h2 {
-    color: #5498ee;
-    font-family: Inter;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 72px;
-    letter-spacing: -3.2px;
+
+    span {
+      color: #5498ee;
+      font-family: Inter;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72px;
+      letter-spacing: -3.2px;
+    }
   }
 }
 
@@ -234,11 +259,6 @@
   }
 }
 
-.heroTeam-image {
-  width: 100%;
-  padding-bottom: -400px;
-}
-
 @media only screen and (max-width: 1450px) {
   .banner-imageConatiner {
     right: 3%;
@@ -249,7 +269,11 @@
 @media only screen and (max-width: 1050px) {
   .banner-container {
     flex-direction: column;
-    padding-bottom: 0px;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
   }
   .banner-content {
     width: 100%;
@@ -260,5 +284,15 @@
     background-repeat: no-repeat;
     right: 0;
     // background-size: 100%;
+  }
+
+  .banner-content-right {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+
+    .heroTeam-image {
+      width: 100%;
+    }
   }
 }
