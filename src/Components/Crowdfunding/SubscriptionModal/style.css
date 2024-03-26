@@ -142,6 +142,7 @@
   flex-direction: row !important;
 }
 .agree-container input {
+  width: -moz-fit-content;
   width: fit-content;
 }
 

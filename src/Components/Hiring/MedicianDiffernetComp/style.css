@@ -1,0 +1,92 @@
+.mediciane-different-conatiner {
+  display: flex;
+  padding: 90px 60px;
+  align-items: flex-start;
+  gap: 120px;
+  align-self: stretch;
+  background: #fff;
+}
+
+.mediciane_diffrent_comp_left {
+  display: flex;
+  width: 434px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.mediciane_diffrent_comp_left .comp_left_first_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.mediciane_diffrent_comp_left .comp_left_first_item .medicine_text {
+  color: #2e2e2e;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -2.4px;
+}
+.mediciane_diffrent_comp_left .comp_left_first_item .medicine_text span {
+  color: var(--Prepaire-Blue, #5498ee);
+}
+.mediciane_diffrent_comp_left .comp_left_first_item .comp_left_text_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.mediciane_diffrent_comp_left .meet_our_tem_btn {
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #5498ee;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+.mediciane_diffrent_comp_left .meet_our_tem_btn div {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.medicaine_different_right_box {
+  display: flex;
+  height: 350px;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+}
+.medicaine_different_right_box img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1050px) {
+  .mediciane-different-conatiner {
+    flex-direction: column-reverse;
+  }
+  .medicaine_different_right_box {
+    width: 100%;
+  }
+  .mediciane_diffrent_comp_left {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .open-position-conatiner {
+    padding-left: 7px;
+    padding-right: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */

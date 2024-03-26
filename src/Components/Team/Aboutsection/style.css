@@ -1,0 +1,126 @@
+.About-prepaire-container {
+  display: flex;
+  padding: 90px 60px;
+  align-items: flex-start;
+  gap: 120px;
+  align-self: stretch;
+  background: #fff;
+}
+
+.preapire_about_image {
+  display: flex;
+  width: 660px;
+  height: 477px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 12px;
+  background: var(--Light-Grey-BG, #f5f5f5);
+  background: url("../../../Assets/Team/Sceintist.png");
+  position: relative;
+}
+
+.remote-pos-text {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--Grey-Strokes, #e5e5e5);
+  background: #fff;
+  /* Drop Shadow Cards */
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.06);
+}
+.remote-pos-text .img-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.remote-pos-text .global_pos_text {
+  color: #2e2e2e;
+  /* Heading 4 */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -0.48px;
+}
+.remote-pos-text .global_pos_text .remote {
+  color: #2e2e2e;
+}
+
+.prepaire_about_section_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+}
+.prepaire_about_section_box .text_section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.prepaire_about_section_box .text_section .prepaire_text-box-first {
+  color: #2e2e2e;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -2.4px;
+}
+.prepaire_about_section_box .text_section .prepaire_text-box-first span {
+  color: var(--Prepaire-Blue, #5498ee);
+}
+.prepaire_about_section_box .text_section .prepaire_text_box_second {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.prepaire_about_section_box .text_section .prepaire_text_box_second div {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.prepaire_about_section_box .open_role {
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #5498ee;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+.prepaire_about_section_box .open_role div {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 1265px) {
+  .About-prepaire-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .preapire_about_image {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

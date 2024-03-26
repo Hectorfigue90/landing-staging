@@ -1,6 +1,7 @@
 .discoverMainCard-container {
   display: flex;
   width: 100vw;
+  height: -moz-fit-content;
   height: fit-content;
   min-width: 300px;
   flex-direction: row;
@@ -26,12 +27,14 @@
 @media only screen and (max-width: 752px) {
   .discoverMainCard-container {
     background-position-y: 130%;
+    height: -moz-fit-content;
     height: fit-content;
   }
 }
 @media only screen and (max-width: 636px) {
   .discoverMainCard-container {
     background-position-y: 120%;
+    height: -moz-fit-content;
     height: fit-content;
   }
 }
@@ -39,6 +42,7 @@
   .discoverMainCard-container {
     background-position-x: 40px;
     background-position-y: 120%;
+    height: -moz-fit-content;
     height: fit-content;
     padding-bottom: 152px;
     background-size: 80%;
@@ -63,7 +67,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  column-gap: 12px;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
   text-align: left;
 }
 .text-frame-discoverMainCards .banner-heading img {

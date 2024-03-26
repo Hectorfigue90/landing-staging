@@ -3,7 +3,10 @@
   justify-content: flex-start;
   align-items: center;
   padding: 0px 60px;
-  gap: 120px;
+  position: relative;
+  padding-top: 120px;
+  /* justify-content: space-between; */
+  gap: 15%;
 }
 
 .biotune-image {
@@ -22,6 +25,18 @@
   gap: 32px;
 }
 
+.camera-background-img {
+  background-image: url("../../../Assets/Biotune/Headset.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 366px;
+  height: 252px;
+  top: -41px;
+  bottom: 29.972px;
+  left: 46%;
+}
+
 .biotune-logo-wrapper {
   padding-left: 60px;
   padding-bottom: 32px;
@@ -31,16 +46,52 @@
   justify-content: flex-start;
 }
 
+.right-section {
+  position: relative;
+  z-index: 9;
+}
+
+.videoframe-img {
+  position: absolute;
+  left: 50%;
+  z-index: -1;
+  top: 0%;
+  transform: translateX(-43%);
+}
+
+.biotune-image-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  .videoframe-img {
+    top: 4%;
+    transform: translateX(-53%);
+  }
+}
 @media only screen and (max-width: 1435px) {
   .biotune-text-container {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 37%;
     gap: 32px;
   }
   .biotune-image {
     width: 47%;
     height: auto;
+  }
+  .videoframe-img {
+    top: 8%;
+    transform: translateX(-34%);
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .biotune-text-container {
+    width: 35%;
+  }
+  .videoframe-img {
+    top: 12%;
+    transform: translateX(-40%);
   }
 }
 @media only screen and (max-width: 1050px) {
@@ -55,12 +106,48 @@
   }
   .biotune-container {
     flex-direction: column;
-    padding: 0px 32px;
+    padding-top: 120px;
+    padding-left: 32px;
+    padding-right: 32px;
     gap: 48px;
   }
   .biotune-image {
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: none;
+  }
+  .biotune-image-mobile {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: block;
+  }
+  .videoframe-img {
+    z-index: -1;
+    top: -9%;
+    transform: translateX(-47%);
+  }
+  .camera-background-img {
+    left: 24%;
+    top: -54px;
+    z-index: -3;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .camera-background-img {
+    left: 0%;
+    width: 100%;
+  }
+  .videoframe-img {
+    transform: translateX(-50%);
+    top: -4%;
+  }
+  .videoframe-img .img-css {
+    width: 276px;
+  }
+  .button-primary {
+    display: none;
   }
 }
 @media only screen and (max-width: 370px) {
@@ -74,6 +161,7 @@
   }
   .biotune-image {
     height: 175.5;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=style.css.map */

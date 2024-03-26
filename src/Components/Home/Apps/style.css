@@ -44,6 +44,7 @@
     overflow: hidden;
   }
   .apps-title-wrapper {
+    height: -moz-fit-content;
     height: fit-content;
     text-align: center;
     height: 500px;

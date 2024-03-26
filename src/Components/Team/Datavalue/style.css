@@ -9,43 +9,6 @@
   gap: 24px;
 }
 
-.banner-container {
-  display: flex;
-  gap: 10px;
-  align-self: stretch;
-  justify-content: space-between;
-  align-items: center;
-  padding: 135px 60px;
-  padding-bottom: 135px;
-  position: relative;
-}
-.banner-container .banner-content-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
-  height: 100%;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  background: #fff;
-  width: -moz-fit-content;
-  width: fit-content;
-  z-index: -1;
-}
-.banner-container .banner-content-right .heroTeam-image {
-  height: 100%;
-}
-
-.banner-content {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-}
-
 .banner-text-container {
   display: flex;
   flex-direction: column;
@@ -79,7 +42,7 @@
   line-height: 72px;
   letter-spacing: -3.2px;
 }
-.banner-title-text h1 span {
+.banner-title-text h2 {
   color: #5498ee;
   font-family: Inter;
   font-size: 64px;
@@ -101,26 +64,17 @@
   color: #fff;
 }
 
-.banner-imageConatiner {
-  width: 640px;
-  height: 586px;
-  flex-shrink: 0;
-  background-repeat: no-repeat;
-  width: 50%;
-  position: absolute;
-  right: 0px;
-}
-
 .datavalues-container {
   display: flex;
-  padding: 40px 60px;
+  padding: 40px 160px !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 24px;
   align-self: stretch;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: var(--Lightest-Grey, #fafafa);
+  /* Dropcards */
   box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -129,13 +83,20 @@
   justify-content: space-between;
   align-items: flex-start;
   align-self: stretch;
+  border-radius: 20px;
+  border: 1px solid var(--Grey-Strokes, #e5e5e5);
+  background: #fff;
 }
 
 .dataalues-lists {
   display: flex;
+  padding: 32px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
+  flex: 1 0 0;
+  border-right: 1px solid var(--Grey-Strokes, #e5e5e5);
+  border-right: 1px solid var(--Grey-Strokes, #e5e5e5);
 }
 .dataalues-lists h1 {
   color: var(--Prepaire-Blue, #5498ee);
@@ -238,36 +199,8 @@
   letter-spacing: -0.16px;
 }
 
-@media only screen and (max-width: 1450px) {
-  .banner-imageConatiner {
-    right: 3%;
-    top: 3%;
-  }
-}
 @media only screen and (max-width: 1050px) {
-  .banner-container {
-    flex-direction: column;
-    display: flex;
-    padding: 32px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-  }
-  .banner-content {
-    width: 100%;
-  }
-  .banner-imageConatiner {
-    position: relative;
-    width: 100%;
-    background-repeat: no-repeat;
-    right: 0;
-  }
-  .banner-content-right {
-    position: relative !important;
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .banner-content-right .heroTeam-image {
-    width: 100%;
+  .datavalues-container-child {
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=style.css.map */

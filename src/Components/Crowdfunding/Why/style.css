@@ -107,7 +107,8 @@
   border-radius: 8px;
   width: 600px;
   height: 450px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: 0;
   width: 100%;
 }
