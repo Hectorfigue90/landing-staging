@@ -13,6 +13,7 @@ const TherapyFacilities = () => {
 					autoPlay={true}
 					loop={true}
 					playsInline
+					disableRemotePlayback
 				>
 					<source src={Video} type="video/mp4" />
 				</video>
@@ -20,21 +21,21 @@ const TherapyFacilities = () => {
 			<div className="therapy-text-container">
 				<div className="hero-title-wrapper">
 					<h2>
-						Designing for the Future of Cell <br />
-						and Gene
+            Designing for the Future of Cell <br />
+            and Gene
 						<span className="color-inlineVariation-blue">
-							Therapy Facilities
+              Therapy Facilities
 						</span>{" "}
 					</h2>
 				</div>
 				<div className="therapy-p-wrapper">
 					<p>
-						Unlock the secrets of your DNA. Our genome sequencing services
-						provide a comprehensive view of your genetic makeup, opening the
-						doors to personalized therapies and interventions. <br />
-						Our state-of-the-art Biobank is a secure repository for biological
-						samples, aiding in efficient drug discovery and personalized
-						medicine.
+            Unlock the secrets of your DNA. Our genome sequencing services
+            provide a comprehensive view of your genetic makeup, opening the
+            doors to personalized therapies and interventions. <br />
+            Our state-of-the-art Biobank is a secure repository for biological
+            samples, aiding in efficient drug discovery and personalized
+            medicine.
 					</p>
 				</div>
 				<div className="therapy-buttons-wrapper">
