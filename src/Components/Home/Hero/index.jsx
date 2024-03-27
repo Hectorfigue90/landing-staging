@@ -13,18 +13,18 @@ const Hero = () => {
 			<div className="hero-text-container">
 				<div className="hero-title-wrapper">
 					<h1>
-						Transforming Drug Discovery through
+            Transforming Drug Discovery through
 						<br />
 						<span className="color-variation-blue ">Open Collaboration</span>
 					</h1>
 				</div>
 				<div className="hero-p-wrapper">
 					<p className="bigger-p">
-						At Prepaire Labs, we champion personalized medicine, harmonizing
-						treatments with unique genetics. Our open platform spurs
-						collaboration, propelling innovation. With our streamlined white box
-						model, we accelerate drug discovery and disease modeling for faster
-						therapeutic breakthroughs.
+            At Prepaire Labs, we champion personalized medicine, harmonizing
+            treatments with unique genetics. Our open platform spurs
+            collaboration, propelling innovation. With our streamlined white box
+            model, we accelerate drug discovery and disease modeling for faster
+            therapeutic breakthroughs.
 					</p>
 				</div>
 				<div className="hero-buttons-container">
@@ -34,7 +34,7 @@ const Hero = () => {
 							to="https://app.prepaire.com:5067/#/signup"
 							// to="https://prepaire-staging.vercel.app/#/signup"
 						>
-							Get started
+              Get started
 						</Link>
 					</div>
 
@@ -43,11 +43,17 @@ const Hero = () => {
 						onClick={() => navigate("/developers")}
 					>
 						{" "}
-						Become a developer
+            Become a developer
 					</button>
 				</div>
 			</div>
-			<video muted autoPlay={true} loop={true} playsInline>
+			<video
+				muted
+				autoPlay={true}
+				loop={true}
+				playsInline
+				disableRemotePlayback
+			>
 				<source src={Video} type="video/mp4" />
 			</video>
 
@@ -58,7 +64,7 @@ const Hero = () => {
 				rel="noopener noreferrer"
 			>
 				<img alt="download-icon" src={Download} />
-				Download case study
+        Download case study
 			</a>
 		</div>
 	);

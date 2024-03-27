@@ -13,13 +13,14 @@ const Apps = () => {
 					autoPlay={true}
 					loop={true}
 					playsInline
+					disableRemotePlayback
 				>
 					<source src={Video} type="video/mp4" />
 				</video>
 			</div>
 			<div className="apps-title-wrapper">
 				<h2>
-					Different apps made for
+          Different apps made for
 					<br />
 					<span className="color-inlineVariation-blue ">your research</span>
 				</h2>

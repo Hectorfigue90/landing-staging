@@ -8,6 +8,7 @@
   align-self: stretch;
   border: 1px solid var(--Grey-Strokes, #e5e5e5);
   background: var(--White, #fff);
+  background-image: url("../../../Assets/Team/ProfilePicture/advisors/BG.svg");
 }
 
 .photo-box .name2 {
@@ -39,6 +40,19 @@
 .photo img {
   border-radius: 8px;
   border: 1.058px solid var(--Grey-Strokes, #e5e5e5);
+}
+
+@keyframes scrollRightToLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.photo-section-item-advisior {
+  display: inline-block;
+  animation: scrollRightToLeft 20s linear infinite; /* Adjust the time as needed */
 }
 
 @media only screen and (max-width: 1440px) {
