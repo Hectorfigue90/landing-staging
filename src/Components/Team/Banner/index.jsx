@@ -3,7 +3,7 @@ import React from "react";
 import "./style.scss";
 
 // import Banner from "../../../Assets/Team/hero_banner.png";
-import Banner from "../../../Assets/Team/Researcher.svg";
+import Banner from "../../../Assets/Team/hero2.svg";
 
 const BannerComponent = () => {
 	// const navigate = useNavigate();
