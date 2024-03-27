@@ -31,13 +31,16 @@ const Team = () => {
 			</div>
 
 			<div className="about-prepairw-outter-conatiner">
+				{/* <Aboutprepaire /> */}
+				<OurValuesComponent />
+			</div>
+			<div className="about-prepairw-outter-conatiner">
 				<Aboutprepaire />
 			</div>
 			<div className="about-prepairw-outter-conatiner">
+				{/* <OurValuesComponent /> */}
+
 				<PrepaireAdvisors />
-			</div>
-			<div className="about-prepairw-outter-conatiner">
-				<OurValuesComponent />
 			</div>
 			<div className="about-prepairw-outter-conatiner">
 				<Prepaireteam />

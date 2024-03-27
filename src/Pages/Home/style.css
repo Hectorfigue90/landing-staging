@@ -16,6 +16,11 @@
   background-repeat: no-repeat;
   background-position-x: right;
 }
+@media only screen and (max-width: 1050px) {
+  .toxi-outter-container {
+    margin-bottom: 48px;
+  }
+}
 
 .hero-outter-container {
   width: 100%;
@@ -56,7 +61,7 @@
 .drugDiscovery-outter-container {
   width: 100%;
   max-width: 1600px;
-  margin-bottom: 160px;
+  margin-bottom: 100px;
   justify-content: center;
 }
 @media only screen and (max-width: 1050px) {

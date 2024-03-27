@@ -83,6 +83,7 @@ p {
   padding: 14px 16px;
   gap: 8px;
   text-decoration: none;
+  width: -moz-fit-content;
   width: fit-content;
   font-family: "Inter", "sans-seriff";
   font-size: 16px;
@@ -100,6 +101,7 @@ p {
   transition: 0.2s;
 }
 .button-primary .button-primary-short {
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -112,6 +114,7 @@ p {
   padding: 14px 16px;
   gap: 8px;
   text-decoration: none;
+  width: -moz-fit-content;
   width: fit-content;
   font-family: "Inter", "sans-seriff";
   font-size: 16px;
@@ -137,6 +140,7 @@ p {
   padding: 14px 16px;
   gap: 8px;
   text-decoration: none;
+  width: -moz-fit-content;
   width: fit-content;
   font-family: "Inter", "sans-seriff";
   font-size: 16px;
@@ -176,6 +180,7 @@ p {
   padding: 14px 16px;
   gap: 8px;
   text-decoration: none;
+  width: -moz-fit-content;
   width: fit-content;
   font-family: "Inter", "sans-seriff";
   font-size: 16px;

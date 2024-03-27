@@ -60,7 +60,8 @@
   }
   .biotune-image {
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media only screen and (max-width: 370px) {
@@ -74,6 +75,7 @@
   }
   .biotune-image {
     height: 175.5;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=style.css.map */

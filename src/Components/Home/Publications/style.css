@@ -25,7 +25,8 @@
 .publication-image-1 {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 8px;
   flex-basis: 50%;
 }
@@ -87,7 +88,6 @@
 
 .small-publication-container {
   width: 502.67px;
-  height: 378px;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.1); /* Border color with 10% opacity black */
   padding: 20px;
@@ -109,13 +109,12 @@
 .publication-lower-container {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   width: 100%;
   gap: 20px;
 }
 
 .publication-2-img-container {
-  /* height: 182px; */
+  height: 182px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -123,10 +122,9 @@
 }
 
 .publication-2-content-container {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  gap: 10px; */
-  flex:1;
+  gap: 10px;
 }
 
 .publication-small-press-name {
@@ -135,7 +133,6 @@
   line-height: 24px;
   color: #5498ee;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 
 .publication-small-title {
@@ -144,7 +141,6 @@
   line-height: 24px;
   letter-spacing: -4%;
   color: #2b2b2b;
-  margin-bottom: 10px;
 }
 
 .publication-small-date {
@@ -152,6 +148,14 @@
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.publication-small-date-last-card {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 6%;
 }
 
 .img-responsive {
@@ -166,6 +170,7 @@
   height: auto;
   max-height: 185px;
   border-radius: 10px;
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -192,7 +197,6 @@
     flex-direction: column;
   }
   .publication-2-img-container {
-    width: 248px;
     height: 206px;
     border-radius: 10px;
   }

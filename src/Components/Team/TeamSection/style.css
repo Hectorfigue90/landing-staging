@@ -10,9 +10,13 @@
 
 .talented_team {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 24px;
+}
+.talented_team .prepire-logo {
+  width: 64px;
+  height: 64px;
+  padding: 13px 13px 14px 13px;
 }
 .talented_team img {
   fill: #5498ee;
@@ -42,7 +46,8 @@
   border: 1px solid var(--Grey-Strokes, #e5e5e5);
   /* Drop cards */
   box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.16);
-  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
 }
 .vertical-section .navtab-btn {
   display: flex;
@@ -115,7 +120,6 @@
   justify-content: flex-end;
   align-items: center;
   border-radius: 8px;
-  background: var(--Prepaire-Blue, #5498ee);
   width: 100%;
 }
 .photo-section .photo-section-item .photo-box .photo img {
@@ -194,7 +198,6 @@
   justify-content: flex-end;
   align-items: center;
   border-radius: 8px;
-  background: var(--Prepaire-Blue, #5498ee);
   width: 100%;
 }
 .photo-section2 .photo-section-item .photo-box .photo img {
@@ -263,7 +266,7 @@
 }
 @media only screen and (max-width: 1050px) {
   .photo-section-item {
-    justify-content: center;
+    justify-content: center !important;
     flex-wrap: wrap;
   }
 }

@@ -20,8 +20,8 @@ const NavBar = () => {
 		// set state based on location info (explained in more detail below)
 		setVisible(
 			(prevScrollPos > currentScrollPos &&
-				prevScrollPos - currentScrollPos > 0) ||
-				currentScrollPos < 10
+        prevScrollPos - currentScrollPos > 0) ||
+        currentScrollPos < 10
 		);
 
 		// set state to new scroll position
@@ -74,7 +74,7 @@ const NavBar = () => {
 							to="https://app.prepaire.com:5067/#/marketplace"
 							// to="https://prepaire-staging.vercel.app/#/marketplace"
 						>
-							Appstore
+              Appstore
 						</Link>
 						<a
 							onClick={() => {
@@ -83,7 +83,7 @@ const NavBar = () => {
 							}}
 						>
 							{" "}
-							Developers
+              Developers
 						</a>
 						<a
 							onClick={() => {
@@ -92,7 +92,7 @@ const NavBar = () => {
 							}}
 						>
 							{" "}
-							Team
+              Team
 						</a>
 						{/* <a
 							onClick={() => {
@@ -109,7 +109,7 @@ const NavBar = () => {
 								// Openmenu();
 							}}
 						>
-							Mission
+              Mission
 						</a>
 						<a
 							onClick={() => {
@@ -117,7 +117,7 @@ const NavBar = () => {
 								// Openmenu();
 							}}
 						>
-							GenetiQ
+              GenetiQ
 						</a>
 						<a
 							onClick={() => {
@@ -125,13 +125,13 @@ const NavBar = () => {
 								// Openmenu();
 							}}
 						>
-							Crowdfunding
+              Crowdfunding
 						</a>
 						<HashLink to={"/#news"} smooth={true}>
-							News
+              News
 						</HashLink>
 						<HashLink to={"/#contact"} smooth={true}>
-							Contact
+              Contact
 						</HashLink>
 					</div>
 					<div className="navBar-button-containers">
@@ -140,7 +140,7 @@ const NavBar = () => {
 							to="https://app.prepaire.com:5067/#/login"
 							// to="https://prepaire-staging.vercel.app/#/login"
 						>
-							Log in
+              Log in
 						</Link>
 					</div>
 				</div>

@@ -86,6 +86,7 @@
   display: flex;
   bottom: 0px;
   left: 0px;
+  height: -moz-fit-content;
   height: fit-content;
   padding: 2px 60px 2px 60px;
   background-color: #5498ee;
