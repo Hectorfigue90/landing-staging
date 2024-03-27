@@ -66,7 +66,7 @@
 
 .datavalues-container {
   display: flex;
-  padding: 40px 160px !important;
+  padding: 40px 160px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -202,5 +202,8 @@
 @media only screen and (max-width: 1050px) {
   .datavalues-container-child {
     flex-wrap: wrap;
+  }
+  .datavalues-container {
+    padding: 32px !important;
   }
 }/*# sourceMappingURL=style.css.map */

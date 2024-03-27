@@ -78,19 +78,26 @@ import Atefeh from "../../../Assets/Team/ProfilePicture/newProfilePic/Atefeh.png
 const Prepaireteam = () => {
 	// const navigate = useNavigate();
 	// Extracts pathname property(key) from an object
-	const [button, setButton] = useState("View All");
-	const [heigh, setHeigh] = useState("calc((100vw) * 1.1)");
-	function viewAll() {
-		if (button === "View All") {
-			setButton("Collapse");
-			setHeigh("100%");
-		} else {
-			setButton("View All");
-			setHeigh("calc((100vw) * 1.1)");
-		}
+	//   const [button, setButton] = useState("View All");
+	// const [heigh, setHeigh] = useState("calc((100vw) * 1.1)");
+	//   function viewAll() {
+	//     if (button === "View All") {
+	//       setButton("Collapse");
+	//       setHeigh("100%");
+	//     } else {
+	//       setButton("View All");
+	//       setHeigh("calc((100vw) * 1.1)");
+	//     }
+	//   }
+
+	const [expanded, setExpanded] = useState(false); // Using boolean for simplicity
+
+	function toggleView() {
+		setExpanded(!expanded);
 	}
+
 	return (
-		<div className="prepaire-team-container">
+		<div className="prepaire-team-container-all">
 			<div className="talented_team">
 				<div className="prepire-logo">
 					<img src={PrepaireLogo} alt="logo" />
@@ -100,7 +107,8 @@ const Prepaireteam = () => {
 				</div>
 			</div>
 
-			<div className="photo-section" style={{ height: heigh }}>
+			{/* <div className="photo-section" style={{ height: heigh }}> */}
+			<div className={`photo-section ${expanded ? "expanded" : "collapsed"}`}>
 				<div className="photo-section-item">
 					<div className="photo-box">
 						<div className="photo">
@@ -333,8 +341,11 @@ const Prepaireteam = () => {
 					</div>
 				</div>
 			</div>
-			<button type="button" onClick={viewAll} className="viewAll-Button">
-				{button}
+			{/* <button type="button" onClick={viewAll} className="viewAll-Button">
+        {button}
+      </button> */}
+			<button type="button" onClick={toggleView} className="viewAll-Button">
+				{expanded ? "Collapse" : "View all members"}
 			</button>
 		</div>
 	);

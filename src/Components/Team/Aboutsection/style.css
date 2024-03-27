@@ -1,16 +1,17 @@
 .About-prepaire-container {
-  display: flex;
-  padding: 90px 60px;
-  align-items: flex-start;
-  gap: 120px;
-  align-self: stretch;
   background: #fff;
+  display: flex;
+  max-width: 1920px;
+  padding: 90px 160px;
+  gap: 60px;
+  align-self: stretch;
 }
 
 .preapire_about_image {
   display: flex;
-  width: 660px;
   height: 477px;
+  flex-shrink: 0;
+  width: 50%;
   align-items: flex-start;
   gap: 24px;
   border-radius: 12px;
@@ -114,6 +115,11 @@
   line-height: 24px;
 }
 
+@media only screen and (max-width: 1440px) {
+  .About-prepaire-container {
+    padding: 90px 60px;
+  }
+}
 @media only screen and (max-width: 1265px) {
   .About-prepaire-container {
     flex-direction: column;
@@ -122,5 +128,10 @@
   }
   .preapire_about_image {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .About-prepaire-container {
+    padding: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
