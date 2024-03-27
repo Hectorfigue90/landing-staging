@@ -1,11 +1,18 @@
-.prepaire-team-container {
+.prepaire-team-container-all {
+  // display: flex;
+  // padding: 60px 60px 90px 60px;
+  // flex-direction: column;
+  // align-items: center;
+  // gap: 48px;
+  // align-self: stretch;
+  // background: #fff;
+
   display: flex;
-  padding: 60px 60px 90px 60px;
+  max-width: 1920px;
+  padding: 60px 160px 90px 160px;
   flex-direction: column;
   align-items: center;
   gap: 48px;
-  align-self: stretch;
-  background: #fff;
 }
 .talented_team {
   display: flex;
@@ -98,7 +105,15 @@
   gap: 24px;
   align-self: stretch;
   overflow: hidden;
-  height: calc((100vh) * 2);
+  // height: calc((100vh) * 2);
+
+  // height: calc(100vw * 1.1);
+  height: 85vw;
+
+  &.expanded {
+    height: 100%; // When expanded, it takes whatever height is necessary
+  }
+
   .photo-section-item {
     display: flex;
     align-items: flex-start;
@@ -108,15 +123,24 @@
     justify-content: flex-start;
 
     .photo-box {
+      // display: flex;
+      // flex-direction: column;
+      // align-items: flex-start;
+      // gap: 12px;
+      // //   flex: 1 0 0;
+      // border-radius: 8px;
+      // background: none;
+      // width: 23.8%;
+      min-width: 300px;
+
+      border-radius: 8px;
       display: flex;
+      // width: 312px;
+      width: 20%;
       flex-direction: column;
       align-items: flex-start;
-      gap: 12px;
-      //   flex: 1 0 0;
-      border-radius: 8px;
-      background: none;
-      width: 23.8%;
-      min-width: 300px;
+      gap: 8px;
+
       .photo {
         display: flex;
         justify-content: flex-end;
@@ -186,7 +210,7 @@
   align-items: center;
   gap: 24px;
   align-self: stretch;
-  overflow: hidden;
+  // overflow: hidden;
 
   .photo-section-item {
     display: flex;
@@ -283,14 +307,48 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  .photo-box {
-    max-width: 23.6%;
+  // .photo-box {
+  //   max-width: 23.6%;
+  // }
+}
+
+// Media query for viewport widths around 1440px
+@media (max-width: 1440px) {
+  .photo-section {
+    // Adjusted default height for this viewport width
+    height: 113.1vw;
+
+    &.collapsed {
+      // You might want to adjust this value if you want a different height when collapsed at this specific viewport width
+      height: 112vw;
+    }
+
+    .photo-section-item {
+      .photo-box {
+        width: fit-content;
+      }
+    }
+  }
+
+  .prepaire-team-container-all {
+    padding: 32px 60px;
   }
 }
+
 @media only screen and (max-width: 1050px) {
   .photo-section-item {
     justify-content: center !important;
     flex-wrap: wrap;
+  }
+
+  .photo-section {
+    // Adjusted default height for this viewport width
+    height: 113.1vw;
+
+    &.collapsed {
+      // You might want to adjust this value if you want a different height when collapsed at this specific viewport width
+      height: 114vw;
+    }
   }
 }
 

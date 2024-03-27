@@ -1,3 +1,14 @@
+.prepaire-team-container {
+  display: flex;
+  max-width: 1920px;
+  padding: 90px 160px;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  border: 1px solid var(--Grey-Strokes, #e5e5e5);
+  background: var(--White, #fff);
+}
 .photo-box {
   .name2 {
     color: var(--Black, #2e2e2e) !important;
@@ -16,5 +27,33 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.16px;
+  }
+}
+
+.photo-section2 {
+  .photo-section-item-advisior {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+}
+
+.photo {
+  img {
+    border-radius: 8px;
+    border: 1.058px solid var(--Grey-Strokes, #e5e5e5);
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .prepaire-team-container {
+    padding: 90px 60px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .prepaire-team-container {
+    padding: 32px;
   }
 }

@@ -5,7 +5,7 @@ import "./style.scss";
 
 // import lee from "../../../Assets/Team/ProfilePicture/advisors/Pics.png";
 
-import lee from "../../../Assets/Team/ProfilePicture/advisors/lee.png";
+import lee from "../../../Assets/Team/ProfilePicture/advisors/Leecronin.png";
 
 // import ming from "../../../Assets/Team/ProfilePicture/advisors/Pics-1.png";
 import ming from "../../../Assets/Team/ProfilePicture/advisors/min.png";
@@ -15,9 +15,11 @@ import zaki from "../../../Assets/Team/ProfilePicture/advisors/zaki.png";
 
 // import moore from "../../../Assets/Team/ProfilePicture/advisors/Pics-3.png";
 import moore from "../../../Assets/Team/ProfilePicture/advisors/moore.png";
+
+import steve from "../../../Assets/Team/ProfilePicture/advisors/steve.png";
 // import steve from "../../../Assets/Team/ProfilePicture/advisors/Pics-4.png";
 
-// import abdulla from "../../../Assets/Team/ProfilePicture/advisors/Pics-5.png";
+import abdulla from "../../../Assets/Team/ProfilePicture/advisors/abdulla.png";
 
 const PrepaireAdvisors = () => {
 	// const navigate = useNavigate();
@@ -36,7 +38,7 @@ const PrepaireAdvisors = () => {
 			</div>
 
 			<div className="photo-section2">
-				<div className="photo-section-item">
+				<div className="photo-section-item-advisior">
 					<div className="photo-box">
 						<div className="photo">
 							<img src={lee} alt="carl" />
@@ -65,20 +67,20 @@ const PrepaireAdvisors = () => {
 						<div className="name2">Alasdair Moore</div>
 						<div className="designation2">Advisor</div>
 					</div>
-					{/* <div className="photo-box">
-            <div className="photo">
-              <img src={steve} alt="carl" />
-            </div>
-            <div className="name2">Steve Carroll</div>
-            <div className="designation2">Advisor</div>
-          </div>
-          <div className="photo-box">
-            <div className="photo">
-              <img src={abdulla} alt="carl" />
-            </div>
-            <div className="name2">Abdulla Al Mansoori</div>
-            <div className="designation2">Advisor</div>
-          </div> */}
+					<div className="photo-box">
+						<div className="photo">
+							<img src={steve} alt="carl" />
+						</div>
+						<div className="name2">Steve Carroll</div>
+						<div className="designation2">Advisor</div>
+					</div>
+					<div className="photo-box">
+						<div className="photo">
+							<img src={abdulla} alt="carl" />
+						</div>
+						<div className="name2">Abdulla Al Mansoori</div>
+						<div className="designation2">Advisor</div>
+					</div>
 				</div>
 			</div>
 		</div>
