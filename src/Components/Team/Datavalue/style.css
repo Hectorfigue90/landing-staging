@@ -74,7 +74,6 @@
   align-self: stretch;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   background: var(--Lightest-Grey, #fafafa);
-  /* Dropcards */
   box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -199,11 +198,36 @@
   letter-spacing: -0.16px;
 }
 
+@media only screen and (max-width: 1440px) {
+  .datavalues-container {
+    padding: 40px 60px;
+  }
+}
 @media only screen and (max-width: 1050px) {
   .datavalues-container-child {
     flex-wrap: wrap;
   }
   .datavalues-container {
     padding: 32px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .datavalues-container {
+    padding: 16px !important;
+  }
+  .datavalues-container-child {
+    flex-direction: column;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid var(--Grey-Strokes, #e5e5e5);
+    background: #fff;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.06);
+  }
+  .datavalues-container-child .dataalues-lists {
+    padding: 32px;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid var(--Grey-Strokes, #e5e5e5);
+    border-right: 0px;
   }
 }/*# sourceMappingURL=style.css.map */

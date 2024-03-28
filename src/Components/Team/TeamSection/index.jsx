@@ -63,11 +63,11 @@ import lawrence from "../../../Assets/Team/ProfilePicture/newProfilePic/lawrence
 import malaz from "../../../Assets/Team/ProfilePicture/newProfilePic/malaz.png";
 import manar from "../../../Assets/Team/ProfilePicture/newProfilePic/manar.png";
 import milad from "../../../Assets/Team/ProfilePicture/newProfilePic/milad.png";
-import mohmad from "../../../Assets/Team/ProfilePicture/newProfilePic/mohmad.png";
+// import mohmad from "../../../Assets/Team/ProfilePicture/newProfilePic/mohmad.png";
 import muhmmad from "../../../Assets/Team/ProfilePicture/newProfilePic/muhmmad.png";
 import narges from "../../../Assets/Team/ProfilePicture/newProfilePic/narges.png";
 import oliver from "../../../Assets/Team/ProfilePicture/newProfilePic/oliver.png";
-import rob from "../../../Assets/Team/ProfilePicture/newProfilePic/rob.png";
+// import rob from "../../../Assets/Team/ProfilePicture/newProfilePic/rob.png";
 import sarah from "../../../Assets/Team/ProfilePicture/newProfilePic/sarah.png";
 import tyler from "../../../Assets/Team/ProfilePicture/newProfilePic/tyler.png";
 import yacine from "../../../Assets/Team/ProfilePicture/newProfilePic/yacine.png";
@@ -114,8 +114,10 @@ const Prepaireteam = () => {
 						<div className="photo">
 							<img src={amir} alt="carl" />
 						</div>
-						<div className="name1">Amir Amanzadi</div>
-						<div className="designation">Bioninformatics Engineer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Amir Amanzadi</div>
+							<div className="designation">Bioninformatics Engineer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
@@ -131,13 +133,13 @@ const Prepaireteam = () => {
 						<div className="name1">Yacine Balit</div>
 						<div className="designation">Business Development</div>
 					</div>
-					<div className="photo-box">
-						<div className="photo">
-							<img src={mohmad} alt="carl" />
-						</div>
-						<div className="name1">Dr. Mohamed Belhocine</div>
-						<div className="designation">Chief Laboratory Officer</div>
-					</div>
+					{/* <div className="photo-box">
+            <div className="photo">
+              <img src={mohmad} alt="carl" />
+            </div>
+            <div className="name1">Dr. Mohamed Belhocine</div>
+            <div className="designation">Chief Laboratory Officer</div>
+          </div> */}
 					<div className="photo-box">
 						<div className="photo">
 							<img src={malaz} alt="carl" />
@@ -145,13 +147,13 @@ const Prepaireteam = () => {
 						<div className="name1">Malaz Bushra Abdullah </div>
 						<div className="designation">Laboratory Technician</div>
 					</div>
-					<div className="photo-box">
-						<div className="photo">
-							<img src={rob} alt="carl" />
-						</div>
-						<div className="name1">Dr. Rob Caldwell</div>
-						<div className="designation">VP Govt Affairs</div>
-					</div>
+					{/* <div className="photo-box">
+            <div className="photo">
+              <img src={rob} alt="carl" />
+            </div>
+            <div className="name1">Dr. Rob Caldwell</div>
+            <div className="designation">VP Govt Affairs</div>
+          </div> */}
 					<div className="photo-box">
 						<div className="photo">
 							<img src={joseph} alt="carl" />

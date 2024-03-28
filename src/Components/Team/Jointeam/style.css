@@ -1,6 +1,5 @@
 .join-prepaire-container {
   display: flex;
-  max-width: 1920px;
   padding: 60px 160px 90px 160px;
   align-items: flex-start;
   gap: 120px;
@@ -91,6 +90,8 @@
   border-bottom-right-radius: 12px;
   height: 100%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media only screen and (max-width: 1440px) {

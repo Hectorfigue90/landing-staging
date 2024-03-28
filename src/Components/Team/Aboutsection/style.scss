@@ -1,14 +1,14 @@
 .About-prepaire-container {
   // display: flex;
-  // padding: 90px 60px;
+  padding: 90px 60px;
   // align-items: flex-start;
   // gap: 120px;
   // align-self: stretch;
   background: #fff;
 
   display: flex;
-  max-width: 1920px;
-  padding: 90px 160px;
+  // max-width: 1920px;
+  // padding: 90px 160px;
   // align-items: center;
   gap: 60px;
   align-self: stretch;
@@ -28,6 +28,22 @@
   // background: url('../../../Assets/Team/scientist.png');
   background: url("../../../Assets/Team/Sceintist.png");
   position: relative;
+  background-size: cover;
+
+  .rightshaded-blue {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* border-radius: 12px; */
+    border-top-right-radius: 12px;
+  }
+
+  .leftshaded-blue {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-bottom-left-radius: 12px;
+  }
 }
 .remote-pos-text {
   display: flex;
@@ -128,9 +144,9 @@
   }
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1920px) {
   .About-prepaire-container {
-    padding: 90px 60px;
+    padding: 90px 160px;
   }
 }
 
@@ -148,5 +164,32 @@
 @media only screen and (max-width: 1050px) {
   .About-prepaire-container {
     padding: 32px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .About-prepaire-container {
+    padding: 32px 16px;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .remote-pos-text {
+    display: flex;
+    padding: 16.586px;
+    // justify-content: center;
+    align-items: flex-end;
+    gap: 8.293px;
+    z-index: 1;
+    left: 3%;
+
+    .global_pos_text {
+      color: #2e2e2e;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: -0.32px;
+    }
   }
 }

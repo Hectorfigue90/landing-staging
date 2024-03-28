@@ -1,6 +1,6 @@
 .prepaire-team-container-all {
   // display: flex;
-  // padding: 60px 60px 90px 60px;
+  padding: 60px 60px 90px 60px;
   // flex-direction: column;
   // align-items: center;
   // gap: 48px;
@@ -8,11 +8,13 @@
   // background: #fff;
 
   display: flex;
-  max-width: 1920px;
-  padding: 60px 160px 90px 160px;
+  // max-width: 1920px;
+  // padding: 60px 160px 90px 160px;
   flex-direction: column;
   align-items: center;
   gap: 48px;
+
+  background: var(--Lightest-Grey, #fafafa);
 }
 .talented_team {
   display: flex;
@@ -24,6 +26,12 @@
     width: 64px;
     height: 64px;
     padding: 13px 13px 14px 13px;
+
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 0.1))
+      drop-shadow(-2px 3px 3px rgba(0, 0, 0, 0.09))
+      drop-shadow(-5px 6px 5px rgba(0, 0, 0, 0.05))
+      drop-shadow(-9px 11px 6px rgba(0, 0, 0, 0.01))
+      drop-shadow(-14px 17px 6px rgba(0, 0, 0, 0));
   }
 
   img {
@@ -115,31 +123,43 @@
   }
 
   .photo-section-item {
-    display: flex;
-    align-items: flex-start;
+    // display: flex;
+    // align-items: flex-start;
+    // gap: 24px;
+    // align-self: stretch;
+    // flex-wrap: wrap;
+    // justify-content: flex-start;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 24px;
+    justify-content: center;
+    align-items: stretch;
     align-self: stretch;
-    flex-wrap: wrap;
-    justify-content: flex-start;
 
     .photo-box {
+      // min-width: 300px;
+
+      // border-radius: 8px;
       // display: flex;
+      // // width: 312px;
+      // width: 20%;
       // flex-direction: column;
       // align-items: flex-start;
-      // gap: 12px;
-      // //   flex: 1 0 0;
-      // border-radius: 8px;
-      // background: none;
-      // width: 23.8%;
-      min-width: 300px;
+      // gap: 8px;
 
       border-radius: 8px;
       display: flex;
-      // width: 312px;
-      width: 20%;
+
       flex-direction: column;
       align-items: flex-start;
       gap: 8px;
+
+      .profile-bio-box {
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+      }
 
       .photo {
         display: flex;
@@ -213,23 +233,24 @@
   // overflow: hidden;
 
   .photo-section-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 24px;
-    align-self: stretch;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    // display: flex;
+    // align-items: flex-start;
+    // gap: 24px;
+    // align-self: stretch;
+    // flex-wrap: wrap;
+    // justify-content: flex-start;
 
     .photo-box {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 12px;
-      //   flex: 1 0 0;
-      border-radius: 8px;
-      background: none;
-      width: 23.8%;
-      min-width: 300px;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: flex-start;
+      // gap: 12px;
+      // //   flex: 1 0 0;
+      // border-radius: 8px;
+      // background: none;
+      // width: 23.8%;
+      // min-width: 300px;
+
       .photo {
         display: flex;
         justify-content: flex-end;
@@ -329,9 +350,11 @@
       }
     }
   }
+}
 
+@media (min-width: 1920px) {
   .prepaire-team-container-all {
-    padding: 32px 60px;
+    padding: 60px 160px 90px 160px;
   }
 }
 
@@ -353,6 +376,13 @@
 }
 
 @media only screen and (max-width: 426px) {
+  .prepaire-team-container-all {
+    padding: 32px 16px;
+    .talented_team {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
   .vertical-section {
     flex-direction: column;
   }

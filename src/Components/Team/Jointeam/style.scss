@@ -1,13 +1,13 @@
 .join-prepaire-container {
   // display: flex;
-  // padding: 60px 60px 90px 60px;
+  padding: 60px 60px 90px 60px;
   // align-items: flex-start;
   // gap: 120px;
   // align-self: stretch;
 
   display: flex;
-  max-width: 1920px;
-  padding: 60px 160px 90px 160px;
+  // max-width: 1920px;
+
   align-items: flex-start;
   gap: 120px;
   // background: #fff;
@@ -108,12 +108,13 @@
     border-bottom-right-radius: 12px;
     height: 100%;
     width: 100%;
+    object-fit: cover;
   }
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1920px) {
   .join-prepaire-container {
-    padding: 60px 60px 90px 60px;
+    padding: 60px 160px 90px 160px;
   }
 }
 
@@ -137,5 +138,11 @@
 
   .join-prepaire-container {
     padding: 32px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .join-prepaire-container {
+    padding: 32px 16px;
   }
 }

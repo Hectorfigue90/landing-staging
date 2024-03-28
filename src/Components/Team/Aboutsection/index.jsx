@@ -5,6 +5,8 @@ import "./style.scss";
 // import { useLocation } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 import GlobalIcon from "../../../Assets/Team/global-icon.svg";
+import RightblueShaded from "../../../Assets/Team/rightbluesahded.svg";
+import leftblueShaded from "../../../Assets/Team/leftblueshaded.svg";
 
 const Aboutprepaire = () => {
 	const navigate = useNavigate();
@@ -19,6 +21,9 @@ const Aboutprepaire = () => {
 						</div>
 					</div>
 				</div>
+
+				<img className="rightshaded-blue" src={RightblueShaded} alt="" />
+				<img className="leftshaded-blue" src={leftblueShaded} alt="" />
 			</div>
 			<div className="prepaire_about_section_box">
 				<div className="text_section">
