@@ -123,15 +123,19 @@ const Prepaireteam = () => {
 						<div className="photo">
 							<img src={milad} alt="carl" />
 						</div>
-						<div className="name1">Dr. Milad Bagheri</div>
-						<div className="designation">Data Scientist</div>
+						<div className="profile-bio-box">
+							<div className="name1">Dr. Milad Bagheri</div>
+							<div className="designation">Data Scientist</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={yacine} alt="carl" />
 						</div>
-						<div className="name1">Yacine Balit</div>
-						<div className="designation">Business Development</div>
+						<div className="profile-bio-box">
+							<div className="name1">Yacine Balit</div>
+							<div className="designation">Business Development</div>
+						</div>
 					</div>
 					{/* <div className="photo-box">
             <div className="photo">
@@ -144,8 +148,10 @@ const Prepaireteam = () => {
 						<div className="photo">
 							<img src={malaz} alt="carl" />
 						</div>
-						<div className="name1">Malaz Bushra Abdullah </div>
-						<div className="designation">Laboratory Technician</div>
+						<div className="profile-bio-box">
+							<div className="name1">Malaz Bushra Abdullah </div>
+							<div className="designation">Laboratory Technician</div>
+						</div>
 					</div>
 					{/* <div className="photo-box">
             <div className="photo">
@@ -158,188 +164,240 @@ const Prepaireteam = () => {
 						<div className="photo">
 							<img src={joseph} alt="carl" />
 						</div>
-						<div className="name1">Joseph Cohen</div>
-						<div className="designation">
-              Business Development Prepaire Shield
+						<div className="profile-bio-box">
+							<div className="name1">Joseph Cohen</div>
+							<div className="designation">
+                Business Development Prepaire Shield
+							</div>
 						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={sarah} alt="carl" />
 						</div>
-						<div className="name1">Sarah Cronin</div>
-						<div className="designation">Project Manager</div>
+						<div className="profile-bio-box">
+							<div className="name1">Sarah Cronin</div>
+							<div className="designation">Project Manager</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={karim} alt="carl" />
 						</div>
-						<div className="name1">Dr. Karim Dellal</div>
-						<div className="designation">Chief Technology Officer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Dr. Karim Dellal</div>
+							<div className="designation">Chief Technology Officer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={dmytro} alt="carl" />
 						</div>
-						<div className="name1">Dmytro Lutsenko</div>
-						<div className="designation">Machine Learning Engineer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Dmytro Lutsenko</div>
+							<div className="designation">Machine Learning Engineer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={ahamad} alt="carl" />
 						</div>
-						<div className="name1">Dr. Ahmed E.A.H</div>
-						<div className="designation">Biomedical Engineer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Dr. Ahmed E.A.H</div>
+							<div className="designation">Biomedical Engineer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={hector} alt="carl" />
 						</div>
-						<div className="name1">Hector Figueroa</div>
-						<div className="designation">Front-End Developer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Hector Figueroa</div>
+							<div className="designation">Front-End Developer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={Adam} alt="carl" />
 						</div>
-						<div className="name1">Adam Freer</div>
-						<div className="designation">Business Director</div>
+						<div className="profile-bio-box">
+							<div className="name1">Adam Freer</div>
+							<div className="designation">Business Director</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={carl} alt="carl" />
 						</div>
-						<div className="name1">Carl Freer</div>
-						<div className="designation">Chief Executive Officer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Carl Freer</div>
+							<div className="designation">Chief Executive Officer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={asma} alt="carl" />
 						</div>
-						<div className="name1">Asma Hmead</div>
-						<div className="designation">Laboratory Technician</div>
+						<div className="profile-bio-box">
+							<div className="name1">Asma Hmead</div>
+							<div className="designation">Laboratory Technician</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={ahamad} alt="carl" />
 						</div>
-						<div className="name1">Ahmed Hussein</div>
-						<div className="designation">Data Scientist</div>
+						<div className="profile-bio-box">
+							<div className="name1">Ahmed Hussein</div>
+							<div className="designation">Data Scientist</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={oliver} alt="carl" />
 						</div>
-						<div className="name1">Oliver Ilves</div>
-						<div className="designation">Front-End Developer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Oliver Ilves</div>
+							<div className="designation">Front-End Developer</div>
+						</div>
 					</div>
 
 					<div className="photo-box">
 						<div className="photo">
 							<img src={ines} alt="carl" />
 						</div>
-						<div className="name1">Ines Jelacic</div>
-						<div className="designation">Executive Office Manager</div>
+						<div className="profile-bio-box">
+							<div className="name1">Ines Jelacic</div>
+							<div className="designation">Executive Office Manager</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={tyler} alt="carl" />
 						</div>
-						<div className="name1">Tyler Katz</div>
-						<div className="designation">Software Architect</div>
+						<div className="profile-bio-box">
+							<div className="name1">Tyler Katz</div>
+							<div className="designation">Software Architect</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={fred} alt="carl" />
 						</div>
-						<div className="name1">Frederick Kolberg</div>
-						<div className="designation">VP Prepaire Shield</div>
+						<div className="profile-bio-box">
+							<div className="name1">Frederick Kolberg</div>
+							<div className="designation">VP Prepaire Shield</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={archna} alt="carl" />
 						</div>
-						<div className="name1">Archana K. Kumar</div>
-						<div className="designation">Laboratory Technician</div>
+						<div className="profile-bio-box">
+							<div className="name1">Archana K. Kumar</div>
+							<div className="designation">Laboratory Technician</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={kunj} alt="carl" />
 						</div>
-						<div className="name1">Kunji Lal Meena</div>
-						<div className="designation">Front-End Developer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Kunji Lal Meena</div>
+							<div className="designation">Front-End Developer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={manar} alt="carl" />
 						</div>
-						<div className="name1">Manar Mohamed </div>
-						<div className="designation">Laboratory Technician</div>
+						<div className="profile-bio-box">
+							<div className="name1">Manar Mohamed </div>
+							<div className="designation">Laboratory Technician</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={Atefeh} alt="carl" />
 						</div>
-						<div className="name1">Atefeh Moradyani </div>
-						<div className="designation">Data Scientist</div>
+						<div className="profile-bio-box">
+							<div className="name1">Atefeh Moradyani </div>
+							<div className="designation">Data Scientist</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={brent} alt="carl" />
 						</div>
-						<div className="name1">Brent Pass </div>
-						<div className="designation">Chief Operating Officer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Brent Pass </div>
+							<div className="designation">Chief Operating Officer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={vicent} alt="carl" />
 						</div>
-						<div className="name1">Dr. Vicent J. Ribas Ripoll </div>
-						<div className="designation">Chief Science Officer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Dr. Vicent J. Ribas Ripoll </div>
+							<div className="designation">Chief Science Officer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={daniel} alt="carl" />
 						</div>
-						<div className="name1">Daniel Rodrigues</div>
-						<div className="designation">Head of Design</div>
+						<div className="profile-bio-box">
+							<div className="name1">Daniel Rodrigues</div>
+							<div className="designation">Head of Design</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={muhmmad} alt="carl" />
 						</div>
-						<div className="name1">Muhammad Saqlain Abbas</div>
-						<div className="designation">Front-End Developer</div>
+						<div className="profile-bio-box">
+							<div className="name1">Muhammad Saqlain Abbas</div>
+							<div className="designation">Front-End Developer</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={lawrence} alt="carl" />
 						</div>
-						<div className="name1">Lawrence Sevilla</div>
-						<div className="designation">
-              Laboratory Information System Architect
+						<div className="profile-bio-box">
+							<div className="name1">Lawrence Sevilla</div>
+							<div className="designation">
+                Laboratory Information System Architect
+							</div>
 						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={vivek} alt="carl" />
 						</div>
-						<div className="name1">Vivek Sharma</div>
-						<div className="designation">Data Scientist</div>
+						<div className="profile-bio-box">
+							<div className="name1">Vivek Sharma</div>
+							<div className="designation">Data Scientist</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={andrew} alt="carl" />
 						</div>
-						<div className="name1">Andrew Totta</div>
-						<div className="designation">Business Ambassador</div>
+						<div className="profile-bio-box">
+							<div className="name1">Andrew Totta</div>
+							<div className="designation">Business Ambassador</div>
+						</div>
 					</div>
 					<div className="photo-box">
 						<div className="photo">
 							<img src={narges} alt="carl" />
 						</div>
-						<div className="name1">Farshid Zargari</div>
-						<div className="designation">Data Scientist</div>
+						<div className="profile-bio-box">
+							<div className="name1">Farshid Zargari</div>
+							<div className="designation">Data Scientist</div>
+						</div>
 					</div>
 				</div>
 			</div>

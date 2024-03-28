@@ -391,6 +391,26 @@
       flex-direction: column;
       .photo-box {
         width: 100%;
+
+        align-items: center;
+        gap: 12px;
+        align-self: stretch;
+        border-radius: 8px;
+        background: #fff;
+        flex-direction: row;
+
+        .profile-bio-box {
+          align-items: flex-start;
+          flex: 1 0 0;
+        }
+        .photo {
+          width: 80px;
+          height: 80px;
+          justify-content: center;
+
+          border: 1px solid var(--Grey-Strokes, #e5e5e5);
+          background: #fff;
+        }
       }
     }
   }
